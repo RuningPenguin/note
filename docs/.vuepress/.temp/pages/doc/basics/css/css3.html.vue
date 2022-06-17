@@ -107,15 +107,15 @@
 
 
 <span class="token comment">&lt;!-- background-origin 样式 --></span>
-<span class="token tag"><span class="token tag"><span class="token punctuation">&lt;</span>div</span> <span class="token special-attr"><span class="token attr-name">style</span><span class="token attr-value"><span class="token punctuation attr-equals">=</span><span class="token punctuation">"</span><span class="token value css language-css"><span class="token property">width</span><span class="token punctuation">:</span>100px<span class="token punctuation">;</span><span class="token property">height</span><span class="token punctuation">:</span>100px<span class="token punctuation">;</span><span class="token property">padding</span><span class="token punctuation">:</span>10px<span class="token punctuation">;</span><span class="token property">border</span><span class="token punctuation">:</span>10px dotted #000<span class="token punctuation">;</span><span class="token property">background-image</span><span class="token punctuation">:</span><span class="token url"><span class="token function">url</span><span class="token punctuation">(</span>/logo/企鹅.png<span class="token punctuation">)</span></span><span class="token punctuation">;</span><span class="token property">background-size</span><span class="token punctuation">:</span>50px 50px<span class="token punctuation">;</span><span class="token property">background-repeat</span><span class="token punctuation">:</span> no-repeat<span class="token punctuation">;</span></span><span class="token punctuation">"</span></span></span><span class="token punctuation">></span></span><span class="token tag"><span class="token tag"><span class="token punctuation">&lt;/</span>div</span><span class="token punctuation">></span></span>
+<span class="token tag"><span class="token tag"><span class="token punctuation">&lt;</span>div</span> <span class="token special-attr"><span class="token attr-name">style</span><span class="token attr-value"><span class="token punctuation attr-equals">=</span><span class="token punctuation">"</span><span class="token value css language-css"><span class="token property">width</span><span class="token punctuation">:</span>100px<span class="token punctuation">;</span><span class="token property">height</span><span class="token punctuation">:</span>100px<span class="token punctuation">;</span><span class="token property">padding</span><span class="token punctuation">:</span>10px<span class="token punctuation">;</span><span class="token property">border</span><span class="token punctuation">:</span>10px dotted #000<span class="token punctuation">;</span><span class="token property">background-image</span><span class="token punctuation">:</span><span class="token url"><span class="token function">url</span><span class="token punctuation">(</span>/note/logo/企鹅.png<span class="token punctuation">)</span></span><span class="token punctuation">;</span><span class="token property">background-size</span><span class="token punctuation">:</span>50px 50px<span class="token punctuation">;</span><span class="token property">background-repeat</span><span class="token punctuation">:</span> no-repeat<span class="token punctuation">;</span></span><span class="token punctuation">"</span></span></span><span class="token punctuation">></span></span><span class="token tag"><span class="token tag"><span class="token punctuation">&lt;/</span>div</span><span class="token punctuation">></span></span>
 
 
 <span class="token comment">&lt;!-- background-size 样式 --></span>
-<span class="token tag"><span class="token tag"><span class="token punctuation">&lt;</span>div</span> <span class="token special-attr"><span class="token attr-name">style</span><span class="token attr-value"><span class="token punctuation attr-equals">=</span><span class="token punctuation">"</span><span class="token value css language-css"><span class="token property">width</span><span class="token punctuation">:</span>100px<span class="token punctuation">;</span><span class="token property">height</span><span class="token punctuation">:</span>60px<span class="token punctuation">;</span><span class="token property">padding</span><span class="token punctuation">:</span>10px<span class="token punctuation">;</span><span class="token property">border</span><span class="token punctuation">:</span>10px dotted #000<span class="token punctuation">;</span><span class="token property">background-image</span><span class="token punctuation">:</span><span class="token url"><span class="token function">url</span><span class="token punctuation">(</span>/logo/企鹅.png<span class="token punctuation">)</span></span><span class="token punctuation">;</span><span class="token property">background-repeat</span><span class="token punctuation">:</span> no-repeat<span class="token punctuation">;</span></span><span class="token punctuation">"</span></span></span><span class="token punctuation">></span></span><span class="token tag"><span class="token tag"><span class="token punctuation">&lt;/</span>div</span><span class="token punctuation">></span></span>
+<span class="token tag"><span class="token tag"><span class="token punctuation">&lt;</span>div</span> <span class="token special-attr"><span class="token attr-name">style</span><span class="token attr-value"><span class="token punctuation attr-equals">=</span><span class="token punctuation">"</span><span class="token value css language-css"><span class="token property">width</span><span class="token punctuation">:</span>100px<span class="token punctuation">;</span><span class="token property">height</span><span class="token punctuation">:</span>60px<span class="token punctuation">;</span><span class="token property">padding</span><span class="token punctuation">:</span>10px<span class="token punctuation">;</span><span class="token property">border</span><span class="token punctuation">:</span>10px dotted #000<span class="token punctuation">;</span><span class="token property">background-image</span><span class="token punctuation">:</span><span class="token url"><span class="token function">url</span><span class="token punctuation">(</span>/note/logo/企鹅.png<span class="token punctuation">)</span></span><span class="token punctuation">;</span><span class="token property">background-repeat</span><span class="token punctuation">:</span> no-repeat<span class="token punctuation">;</span></span><span class="token punctuation">"</span></span></span><span class="token punctuation">></span></span><span class="token tag"><span class="token tag"><span class="token punctuation">&lt;/</span>div</span><span class="token punctuation">></span></span>
 
 
 <span class="token comment">&lt;!-- background-image 样式 --></span>
-<span class="token tag"><span class="token tag"><span class="token punctuation">&lt;</span>div</span> <span class="token special-attr"><span class="token attr-name">style</span><span class="token attr-value"><span class="token punctuation attr-equals">=</span><span class="token punctuation">"</span><span class="token value css language-css"><span class="token property">width</span><span class="token punctuation">:</span>100px<span class="token punctuation">;</span><span class="token property">height</span><span class="token punctuation">:</span>60px<span class="token punctuation">;</span><span class="token property">padding</span><span class="token punctuation">:</span>10px<span class="token punctuation">;</span><span class="token property">border</span><span class="token punctuation">:</span>10px dotted #000<span class="token punctuation">;</span><span class="token property">background-image</span><span class="token punctuation">:</span><span class="token url"><span class="token function">url</span><span class="token punctuation">(</span>/logo/企鹅-b.png<span class="token punctuation">)</span></span><span class="token punctuation">,</span><span class="token url"><span class="token function">url</span><span class="token punctuation">(</span>/logo/企鹅.png<span class="token punctuation">)</span></span><span class="token punctuation">;</span> <span class="token property">background-position</span><span class="token punctuation">:</span> right bottom<span class="token punctuation">,</span> left top<span class="token punctuation">;</span><span class="token property">background-repeat</span><span class="token punctuation">:</span> no-repeat<span class="token punctuation">;</span><span class="token property">background-size</span><span class="token punctuation">:</span>50px 50px<span class="token punctuation">,</span>40px 40px</span><span class="token punctuation">"</span></span></span><span class="token punctuation">></span></span><span class="token tag"><span class="token tag"><span class="token punctuation">&lt;/</span>div</span><span class="token punctuation">></span></span>
+<span class="token tag"><span class="token tag"><span class="token punctuation">&lt;</span>div</span> <span class="token special-attr"><span class="token attr-name">style</span><span class="token attr-value"><span class="token punctuation attr-equals">=</span><span class="token punctuation">"</span><span class="token value css language-css"><span class="token property">width</span><span class="token punctuation">:</span>100px<span class="token punctuation">;</span><span class="token property">height</span><span class="token punctuation">:</span>60px<span class="token punctuation">;</span><span class="token property">padding</span><span class="token punctuation">:</span>10px<span class="token punctuation">;</span><span class="token property">border</span><span class="token punctuation">:</span>10px dotted #000<span class="token punctuation">;</span><span class="token property">background-image</span><span class="token punctuation">:</span><span class="token url"><span class="token function">url</span><span class="token punctuation">(</span>/note/logo/企鹅-b.png<span class="token punctuation">)</span></span><span class="token punctuation">,</span><span class="token url"><span class="token function">url</span><span class="token punctuation">(</span>/logo/企鹅.png<span class="token punctuation">)</span></span><span class="token punctuation">;</span> <span class="token property">background-position</span><span class="token punctuation">:</span> right bottom<span class="token punctuation">,</span> left top<span class="token punctuation">;</span><span class="token property">background-repeat</span><span class="token punctuation">:</span> no-repeat<span class="token punctuation">;</span><span class="token property">background-size</span><span class="token punctuation">:</span>50px 50px<span class="token punctuation">,</span>40px 40px</span><span class="token punctuation">"</span></span></span><span class="token punctuation">></span></span><span class="token tag"><span class="token tag"><span class="token punctuation">&lt;/</span>div</span><span class="token punctuation">></span></span>
 </code></pre><div class="line-numbers" aria-hidden="true"><div class="line-number"></div><div class="line-number"></div><div class="line-number"></div><div class="line-number"></div><div class="line-number"></div><div class="line-number"></div><div class="line-number"></div><div class="line-number"></div><div class="line-number"></div><div class="line-number"></div><div class="line-number"></div><div class="line-number"></div><div class="line-number"></div><div class="line-number"></div></div></div><table>
   <tr>
     <th>属性名</th>
@@ -151,19 +151,19 @@
       <td>border-box 	<br>背景图像填充框的相对位置</td> 
       <td rowspan="3">设置背景图片的范围</td>
       <td>
-        <div style="width:100px;height:100px;padding:10px;border:10px dotted #000;background-image:url(/logo/企鹅.png);background-size:50px 50px;background-repeat: no-repeat;background-origin:border-box;">企鹅的学习笔记企鹅的学习笔记企鹅的学习笔记</div>
+        <div style="width:100px;height:100px;padding:10px;border:10px dotted #000;background-image:url(/note/logo/企鹅.png);background-size:50px 50px;background-repeat: no-repeat;background-origin:border-box;">企鹅的学习笔记企鹅的学习笔记企鹅的学习笔记</div>
       </td>
     </tr>
     <tr>
       <td>padding-box 	<br>默认值 背景图像边界框的相对位置</td> 
       <td>
-        <div style="width:100px;height:100px;padding:10px;border:10px dotted #000;background-image:url(/logo/企鹅.png);background-size:50px 50px;background-repeat: no-repeat;background-origin:padding-box;">企鹅的学习笔记企鹅的学习笔记企鹅的学习笔记</div>
+        <div style="width:100px;height:100px;padding:10px;border:10px dotted #000;background-image:url(/note/logo/企鹅.png);background-size:50px 50px;background-repeat: no-repeat;background-origin:padding-box;">企鹅的学习笔记企鹅的学习笔记企鹅的学习笔记</div>
       </td>
     </tr>
     <tr>
       <td>content-box 	<br>背景图像的相对位置的内容框</td> 
       <td>
-        <div style="width:100px;height:100px;padding:10px;border:10px dotted #000;background-image:url(/logo/企鹅.png);background-size:50px 50px;background-repeat: no-repeat;background-origin:content-box;">企鹅的学习笔记企鹅的学习笔记企鹅的学习笔记</div>
+        <div style="width:100px;height:100px;padding:10px;border:10px dotted #000;background-image:url(/note/logo/企鹅.png);background-size:50px 50px;background-repeat: no-repeat;background-origin:content-box;">企鹅的学习笔记企鹅的学习笔记企鹅的学习笔记</div>
       </td>
     </tr>
   </tbody>
@@ -173,31 +173,31 @@
       <td>100%	100%		<br>填满盒子，图片完整显示，会变形</td> 
       <td rowspan="5">设置背景图像的大小</td>
       <td>
-        <div style="width:100px;height:60px;padding:10px;border:10px dotted #000;background-image:url(/logo/企鹅.png);background-repeat: no-repeat;background-size:100% 100%;"></div>
+        <div style="width:100px;height:60px;padding:10px;border:10px dotted #000;background-image:url(/note/logo/企鹅.png);background-repeat: no-repeat;background-size:100% 100%;"></div>
       </td>
     </tr>
     <tr>
       <td>100%	auto 	<br>宽度占满，高度自适应</td> 
       <td>
-        <div style="width:100px;height:60px;padding:10px;border:10px dotted #000;background-image:url(/logo/企鹅.png);background-repeat: no-repeat;background-size:100%	auto;"></div>
+        <div style="width:100px;height:60px;padding:10px;border:10px dotted #000;background-image:url(/note/logo/企鹅.png);background-repeat: no-repeat;background-size:100%	auto;"></div>
       </td>
     </tr>
     <tr>
       <td>auto	100% 	<br>高度占满，宽度自适应</td> 
       <td>
-        <div style="width:100px;height:60px;padding:10px;border:10px dotted #000;background-image:url(/logo/企鹅.png);background-repeat: no-repeat;background-size:auto	100%;"></div>
+        <div style="width:100px;height:60px;padding:10px;border:10px dotted #000;background-image:url(/note/logo/企鹅.png);background-repeat: no-repeat;background-size:auto	100%;"></div>
       </td>
     </tr>
     <tr>
       <td>cover 	<br>填满盒子，等比缩放，图片不能完全显示</td> 
       <td>
-        <div style="width:100px;height:60px;padding:10px;border:10px dotted #000;background-image:url(/logo/企鹅.png);background-repeat: no-repeat;background-size:cover;"></div>
+        <div style="width:100px;height:60px;padding:10px;border:10px dotted #000;background-image:url(/note/logo/企鹅.png);background-repeat: no-repeat;background-size:cover;"></div>
       </td>
     </tr>
     <tr>
       <td>contain 	<br>等比缩放，图片完整显示，不能填满盒子</td> 
       <td>
-        <div style="width:100px;height:60px;padding:10px;border:10px dotted #000;background-image:url(/logo/企鹅.png);background-repeat: no-repeat;background-size:contain;"></div>
+        <div style="width:100px;height:60px;padding:10px;border:10px dotted #000;background-image:url(/note/logo/企鹅.png);background-repeat: no-repeat;background-size:contain;"></div>
       </td>
     </tr>
   </tbody>
@@ -207,7 +207,7 @@
       <td> url(),url()	</td> 
       <td>一个盒子可以插入多个背景图片，但是需要逗号隔开，设置背景颜色时不可以加在第一个图片里</td>
       <td>
-        <div style="width:100px;height:60px;padding:10px;border:10px dotted #000;background-image:url(/logo/企鹅-b.png),url(/logo/企鹅.png); background-position: right bottom, left top;background-repeat: no-repeat;background-size:50px 50px,40px 40px"></div>
+        <div style="width:100px;height:60px;padding:10px;border:10px dotted #000;background-image:url(/note/logo/企鹅-b.png),url(/note/logo/企鹅.png); background-position: right bottom, left top;background-repeat: no-repeat;background-size:50px 50px,40px 40px"></div>
       </td>
     </tr>
   </tbody>
@@ -266,25 +266,25 @@
   <tr>
     <td>border-image-source:url <br/>用于指定要用于绘制边框的图像的位置</td>
     <td>
-      <div style="width:100px;height:60px;background:#ccc;border: 10px solid transparent;border-image-source:url(/image/border.png)"></div>
+      <div style="width:100px;height:60px;background:#ccc;border: 10px solid transparent;border-image-source:url(/note/image/border.png)"></div>
     </td>
   </tr>
   <tr>
     <td>border-image-slice:数字（不加单位） <br/>图像边界向内偏移</td>
     <td>
-      <div style="width:100px;height:60px;background:#ccc;border: 10px solid transparent;border-image-source:url(/image/border.png);border-image-slice:30"></div>
+      <div style="width:100px;height:60px;background:#ccc;border: 10px solid transparent;border-image-source:url(/note/image/border.png);border-image-slice:30"></div>
     </td>
   </tr>
   <tr>
     <td>border-image-outset:数字（不加单位） <br/>图片向外偏移（单独设置，倍数）</td>
     <td>
-      <div style="width:100px;height:60px;background:#ccc;border: 10px solid transparent;border-image-source:url(/image/border.png);border-image-outset:1"></div>
+      <div style="width:100px;height:60px;background:#ccc;border: 10px solid transparent;border-image-source:url(/note/image/border.png);border-image-outset:1"></div>
     </td>
   </tr>
   <tr>
     <td>border-image-repeat: repeat(平铺) | round(铺满) | stretch(拉伸)<br/>设置平铺方式</td>
     <td>
-      <div style="width:100px;height:60px;background:#ccc;border: 10px solid transparent;border-image-source:url(/image/border.png);border-image-slice:30;border-image-repeat:round"></div>
+      <div style="width:100px;height:60px;background:#ccc;border: 10px solid transparent;border-image-source:url(/note/image/border.png);border-image-slice:30;border-image-repeat:round"></div>
     </td>
   </tr>
 </table>
