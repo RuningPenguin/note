@@ -222,13 +222,6 @@ export const searchIndex = [
   {
     "title": "",
     "headers": [],
-    "path": "/about/qie/",
-    "pathLocale": "/",
-    "extraFields": []
-  },
-  {
-    "title": "",
-    "headers": [],
     "path": "/doc/git/",
     "pathLocale": "/",
     "extraFields": []
@@ -236,14 +229,7 @@ export const searchIndex = [
   {
     "title": "",
     "headers": [],
-    "path": "/doc/jquery/",
-    "pathLocale": "/",
-    "extraFields": []
-  },
-  {
-    "title": "",
-    "headers": [],
-    "path": "/doc/react/",
+    "path": "/about/qie/",
     "pathLocale": "/",
     "extraFields": []
   },
@@ -257,7 +243,28 @@ export const searchIndex = [
   {
     "title": "",
     "headers": [],
+    "path": "/doc/react/",
+    "pathLocale": "/",
+    "extraFields": []
+  },
+  {
+    "title": "",
+    "headers": [],
+    "path": "/doc/typescript/",
+    "pathLocale": "/",
+    "extraFields": []
+  },
+  {
+    "title": "",
+    "headers": [],
     "path": "/doc/uniapp/",
+    "pathLocale": "/",
+    "extraFields": []
+  },
+  {
+    "title": "",
+    "headers": [],
+    "path": "/doc/jquery/",
     "pathLocale": "/",
     "extraFields": []
   },
@@ -285,13 +292,6 @@ export const searchIndex = [
   {
     "title": "",
     "headers": [],
-    "path": "/doc/typescript/",
-    "pathLocale": "/",
-    "extraFields": []
-  },
-  {
-    "title": "",
-    "headers": [],
     "path": "/doc/webpack/",
     "pathLocale": "/",
     "extraFields": []
@@ -300,6 +300,120 @@ export const searchIndex = [
     "title": "",
     "headers": [],
     "path": "/doc/weixin/",
+    "pathLocale": "/",
+    "extraFields": []
+  },
+  {
+    "title": "高级效果",
+    "headers": [
+      {
+        "level": 2,
+        "title": "渐变",
+        "slug": "渐变",
+        "children": [
+          {
+            "level": 3,
+            "title": "线性渐变",
+            "slug": "线性渐变",
+            "children": []
+          },
+          {
+            "level": 3,
+            "title": "径向渐变",
+            "slug": "径向渐变",
+            "children": []
+          },
+          {
+            "level": 3,
+            "title": "重复线性渐变",
+            "slug": "重复线性渐变",
+            "children": []
+          },
+          {
+            "level": 3,
+            "title": "重复径向渐变",
+            "slug": "重复径向渐变",
+            "children": []
+          },
+          {
+            "level": 3,
+            "title": "设置一个盒子，两种颜色，没有渐变过渡",
+            "slug": "设置一个盒子-两种颜色-没有渐变过渡",
+            "children": []
+          }
+        ]
+      },
+      {
+        "level": 2,
+        "title": "过渡(transition)",
+        "slug": "过渡-transition",
+        "children": [
+          {
+            "level": 3,
+            "title": "贝塞尔曲线",
+            "slug": "贝塞尔曲线",
+            "children": []
+          }
+        ]
+      },
+      {
+        "level": 2,
+        "title": "2D/3D",
+        "slug": "_2d-3d",
+        "children": [
+          {
+            "level": 3,
+            "title": "transform",
+            "slug": "transform",
+            "children": []
+          },
+          {
+            "level": 3,
+            "title": "transform-origin",
+            "slug": "transform-origin",
+            "children": []
+          },
+          {
+            "level": 3,
+            "title": "水平垂直居中",
+            "slug": "水平垂直居中",
+            "children": []
+          }
+        ]
+      },
+      {
+        "level": 2,
+        "title": "动画",
+        "slug": "动画",
+        "children": [
+          {
+            "level": 3,
+            "title": "创建动画",
+            "slug": "创建动画",
+            "children": []
+          },
+          {
+            "level": 3,
+            "title": "执行动画",
+            "slug": "执行动画",
+            "children": []
+          }
+        ]
+      },
+      {
+        "level": 2,
+        "title": "动画与过渡的区别",
+        "slug": "动画与过渡的区别",
+        "children": []
+      },
+      {
+        "level": 2,
+        "title": "景深",
+        "slug": "景深",
+        "children": []
+      }
+    ],
+    "path": "/doc/basics/css/animation.html",
     "pathLocale": "/",
     "extraFields": []
   },
@@ -524,6 +638,87 @@ export const searchIndex = [
     "extraFields": []
   },
   {
+    "title": "网页布局",
+    "headers": [
+      {
+        "level": 2,
+        "title": "弹性盒父元素的属性",
+        "slug": "弹性盒父元素的属性",
+        "children": [
+          {
+            "level": 3,
+            "title": "定义主轴方向",
+            "slug": "定义主轴方向",
+            "children": []
+          },
+          {
+            "level": 3,
+            "title": "定义灵活元素换行",
+            "slug": "定义灵活元素换行",
+            "children": []
+          },
+          {
+            "level": 3,
+            "title": "设置主轴的对齐方式",
+            "slug": "设置主轴的对齐方式",
+            "children": []
+          },
+          {
+            "level": 3,
+            "title": "设置侧轴对齐方向",
+            "slug": "设置侧轴对齐方向",
+            "children": []
+          },
+          {
+            "level": 3,
+            "title": "设置多行侧轴对齐方式",
+            "slug": "设置多行侧轴对齐方式",
+            "children": []
+          }
+        ]
+      },
+      {
+        "level": 2,
+        "title": "设置单独灵活元素的侧轴",
+        "slug": "设置单独灵活元素的侧轴",
+        "children": []
+      },
+      {
+        "level": 2,
+        "title": "分配灵活元素的空间（flex）",
+        "slug": "分配灵活元素的空间-flex",
+        "children": []
+      },
+      {
+        "level": 2,
+        "title": "形成grid布局",
+        "slug": "形成grid布局",
+        "children": []
+      },
+      {
+        "level": 2,
+        "title": "间距",
+        "slug": "间距",
+        "children": []
+      },
+      {
+        "level": 2,
+        "title": "定义内容区域划分",
+        "slug": "定义内容区域划分",
+        "children": []
+      },
+      {
+        "level": 2,
+        "title": "子元素",
+        "slug": "子元素",
+        "children": []
+      }
+    ],
+    "path": "/doc/basics/css/boxModel.html",
+    "pathLocale": "/",
+    "extraFields": []
+  },
+  {
     "title": "css基础",
     "headers": [
       {
@@ -637,172 +832,6 @@ export const searchIndex = [
         "title": "多列布局",
         "slug": "多列布局",
         "children": []
-      },
-      {
-        "level": 2,
-        "title": "属性",
-        "slug": "属性",
-        "children": []
-      },
-      {
-        "level": 2,
-        "title": "设置标题位置",
-        "slug": "设置标题位置",
-        "children": []
-      },
-      {
-        "level": 2,
-        "title": "设置列表宽度",
-        "slug": "设置列表宽度",
-        "children": []
-      },
-      {
-        "level": 2,
-        "title": "columns（复合属性）",
-        "slug": "columns-复合属性",
-        "children": []
-      },
-      {
-        "level": 2,
-        "title": "线性渐变",
-        "slug": "线性渐变",
-        "children": [
-          {
-            "level": 3,
-            "title": "方向",
-            "slug": "方向",
-            "children": []
-          },
-          {
-            "level": 3,
-            "title": "角度值（水平 / 垂直 / 对角 都可以，单位deg）",
-            "slug": "角度值-水平-垂直-对角-都可以-单位deg",
-            "children": []
-          }
-        ]
-      },
-      {
-        "level": 2,
-        "title": "径向渐变",
-        "slug": "径向渐变",
-        "children": [
-          {
-            "level": 3,
-            "title": "中心点",
-            "slug": "中心点",
-            "children": []
-          },
-          {
-            "level": 3,
-            "title": "形状",
-            "slug": "形状",
-            "children": []
-          },
-          {
-            "level": 3,
-            "title": "大小（必须有中心点）",
-            "slug": "大小-必须有中心点",
-            "children": []
-          }
-        ]
-      },
-      {
-        "level": 2,
-        "title": "重复渐变",
-        "slug": "重复渐变",
-        "children": [
-          {
-            "level": 3,
-            "title": "重复线性渐变",
-            "slug": "重复线性渐变",
-            "children": []
-          },
-          {
-            "level": 3,
-            "title": "重复径向渐变",
-            "slug": "重复径向渐变",
-            "children": []
-          },
-          {
-            "level": 3,
-            "title": "如果设置一个盒子，直接两个颜色，没有渐变过渡",
-            "slug": "如果设置一个盒子-直接两个颜色-没有渐变过渡",
-            "children": []
-          }
-        ]
-      },
-      {
-        "level": 2,
-        "title": "transform-origin:px / 单词 /%",
-        "slug": "transform-origin-px-单词",
-        "children": []
-      },
-      {
-        "level": 2,
-        "title": "2d偏移",
-        "slug": "_2d偏移",
-        "children": [
-          {
-            "level": 3,
-            "title": "水平垂直居中",
-            "slug": "水平垂直居中",
-            "children": []
-          }
-        ]
-      },
-      {
-        "level": 2,
-        "title": "2d缩放",
-        "slug": "_2d缩放",
-        "children": []
-      },
-      {
-        "level": 2,
-        "title": "2d旋转",
-        "slug": "_2d旋转",
-        "children": []
-      },
-      {
-        "level": 2,
-        "title": "2d倾斜(deg)",
-        "slug": "_2d倾斜-deg",
-        "children": []
-      },
-      {
-        "level": 2,
-        "title": "创建3d空间",
-        "slug": "创建3d空间",
-        "children": []
-      },
-      {
-        "level": 2,
-        "title": "3d的偏移",
-        "slug": "_3d的偏移",
-        "children": []
-      },
-      {
-        "level": 2,
-        "title": "3d旋转",
-        "slug": "_3d旋转",
-        "children": []
-      },
-      {
-        "level": 2,
-        "title": "3d缩放",
-        "slug": "_3d缩放",
-        "children": []
-      },
-      {
-        "level": 2,
-        "title": "cursor:",
-        "slug": "cursor",
-        "children": []
-      },
-      {
-        "level": 2,
-        "title": "书写方法",
-        "slug": "书写方法",
-        "children": []
       }
     ],
     "path": "/doc/basics/css/css3.html",
@@ -902,6 +931,18 @@ export const searchIndex = [
         "level": 2,
         "title": "定义横竖屏",
         "slug": "定义横竖屏",
+        "children": []
+      },
+      {
+        "level": 2,
+        "title": "cursor:",
+        "slug": "cursor",
+        "children": []
+      },
+      {
+        "level": 2,
+        "title": "书写方法",
+        "slug": "书写方法",
         "children": []
       }
     ],

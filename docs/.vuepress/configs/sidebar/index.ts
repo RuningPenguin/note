@@ -22,15 +22,14 @@ export const SideBar: SidebarConfig = {
         '/doc/basics/css/font.md',
         '/doc/basics/css/attribute.md',
         '/doc/basics/css/css3.md',
+        '/doc/basics/css/animation.md',
+        '/doc/basics/css/boxModel.md',
       ]
     },
     {
       text: 'js',
       collapsible: true,
       children: [
-        '/doc/html/html.md',
-        '/doc/html/label.md',
-        '/doc/html/h5.md',
       ]
     }
   ]

@@ -289,205 +289,29 @@
   </tr>
 </table>
 <h2 id="多列布局" tabindex="-1"><a class="header-anchor" href="#多列布局" aria-hidden="true">#</a> 多列布局</h2>
-<p>​	设置内容分几列</p>
-<h2 id="属性" tabindex="-1"><a class="header-anchor" href="#属性" aria-hidden="true">#</a> 属性</h2>
+<div class="custom-container tip"><p class="custom-container-title">提示</p>
+<h4 id="属性" tabindex="-1"><a class="header-anchor" href="#属性" aria-hidden="true">#</a> 属性</h4>
 <p>​			column-count				设置内容风为几列</p>
 <p>​			column-gap					设置列间隔</p>
 <p>​			column-rule					设置列边框线</p>
 <p>​			column-fill						设置剩余空间的处理</p>
 <p>​						auto		占满前面一列空间，剩余空间最后一行显示</p>
 <p>​						balance		剩余空间平分（默认值）</p>
-<h2 id="设置标题位置" tabindex="-1"><a class="header-anchor" href="#设置标题位置" aria-hidden="true">#</a> 设置标题位置</h2>
+<h4 id="设置标题位置" tabindex="-1"><a class="header-anchor" href="#设置标题位置" aria-hidden="true">#</a> 设置标题位置</h4>
 <p>​				column-span</p>
 <p>​							none			标题在第一列显示（默认）</p>
 <p>​							all				标题在所有列上面显示</p>
-<h2 id="设置列表宽度" tabindex="-1"><a class="header-anchor" href="#设置列表宽度" aria-hidden="true">#</a> 设置列表宽度</h2>
+<h4 id="设置列表宽度" tabindex="-1"><a class="header-anchor" href="#设置列表宽度" aria-hidden="true">#</a> 设置列表宽度</h4>
 <p>​				column-width（与count冲突，设置值大的）</p>
-<h2 id="columns-复合属性" tabindex="-1"><a class="header-anchor" href="#columns-复合属性" aria-hidden="true">#</a> columns（复合属性）</h2>
+<h4 id="columns-复合属性" tabindex="-1"><a class="header-anchor" href="#columns-复合属性" aria-hidden="true">#</a> columns（复合属性）</h4>
 <p>​				列表宽盒列（column-width/column-count）属性冲突</p>
-<h1 id="图片整合" tabindex="-1"><a class="header-anchor" href="#图片整合" aria-hidden="true">#</a> 图片整合</h1>
-<p>​	CSS Sprites / css精灵图 / 雪碧图</p>
-<p>​	把网页里的小图片整合到大的背景图，通过背景插入的形式和核心属性background-position移动图片的位置，来显示部分图片的内容</p>
-<p>​	好处:
-​		减少图片对服务器的请求次数，可以提升网页的加载速度
-​		也可以减少图片的体积</p>
-<h1 id="渐变" tabindex="-1"><a class="header-anchor" href="#渐变" aria-hidden="true">#</a> 渐变</h1>
-<p>​	多个颜色的过渡，渐变由浏览器生成，有两种模式，标准模式 / 兼容模式</p>
-<p>​	3种，</p>
-<p>​			线性渐变，径向渐变，重复渐变</p>
-<h2 id="线性渐变" tabindex="-1"><a class="header-anchor" href="#线性渐变" aria-hidden="true">#</a> 线性渐变</h2>
-<p>​			标准和兼容</p>
-<p>​				background:linear-gradient（to 方向，颜色1，颜色2）；</p>
-<p>​				background:-前缀-linear-gradient（方向（相反），颜色1，颜色2）；</p>
-<h3 id="方向" tabindex="-1"><a class="header-anchor" href="#方向" aria-hidden="true">#</a> 方向</h3>
-<p>​			单一方向（上下或水平）</p>
-<p>​				【注】标准和兼容单词方向相反</p>
-<p>​							标准	to  left（右左）</p>
-<p>​										to  right（左右）</p>
-<p>​										to  top（下上）</p>
-<p>​										to  bottom（上下）</p>
-<p>​							兼容 left / right / top / bottom</p>
-<p>​			多个方向（对角渐变）</p>
-<p>​					标准	to  left  top</p>
-<p>​								to  left bottom</p>
-<p>​								to  right  top</p>
-<p>​								to  right  bottom</p>
-<p>​</p>
-<p>​					兼容  和上面一样，不加to</p>
-<h3 id="角度值-水平-垂直-对角-都可以-单位deg" tabindex="-1"><a class="header-anchor" href="#角度值-水平-垂直-对角-都可以-单位deg" aria-hidden="true">#</a> 角度值（水平 / 垂直 / 对角 都可以，单位deg）</h3>
-<p>​						标准:正值，顺时针		负值逆时针</p>
-<p>​						兼容:90deg - 标准的角度值</p>
-<h2 id="径向渐变" tabindex="-1"><a class="header-anchor" href="#径向渐变" aria-hidden="true">#</a> 径向渐变</h2>
-<p>​			必须加前缀</p>
-<p>​		background:-前缀-radial-gradient（渐变的中心点，渐变的形状，渐变的大小，开始颜色，结束颜色）<strong>形状和大小冲突，不能同时设置</strong></p>
-<h3 id="中心点" tabindex="-1"><a class="header-anchor" href="#中心点" aria-hidden="true">#</a> 中心点</h3>
-<p>​							center		默认</p>
-<p>​							px / %</p>
-<h3 id="形状" tabindex="-1"><a class="header-anchor" href="#形状" aria-hidden="true">#</a> 形状</h3>
-<p>​						circle			正圆</p>
-<p>​						ellipse			椭圆（默认）</p>
-<h3 id="大小-必须有中心点" tabindex="-1"><a class="header-anchor" href="#大小-必须有中心点" aria-hidden="true">#</a> 大小（必须有中心点）</h3>
-<p>​						closest-side		最近边</p>
-<p>​						farthest-side		最远边</p>
-<p>​						closest-corner		最近角</p>
-<p>​						farthest-corner		最远角</p>
-<h2 id="重复渐变" tabindex="-1"><a class="header-anchor" href="#重复渐变" aria-hidden="true">#</a> 重复渐变</h2>
-<h3 id="重复线性渐变" tabindex="-1"><a class="header-anchor" href="#重复线性渐变" aria-hidden="true">#</a> 重复线性渐变</h3>
-<p>​		background:-前缀-repeating-linear-gradient（red，yellow 10%，green 30%）；</p>
-<h3 id="重复径向渐变" tabindex="-1"><a class="header-anchor" href="#重复径向渐变" aria-hidden="true">#</a> 重复径向渐变</h3>
-<p>​		background:-前缀-repeating-radial-gradient（red，yellow 10%，green 30%）；</p>
-<h3 id="如果设置一个盒子-直接两个颜色-没有渐变过渡" tabindex="-1"><a class="header-anchor" href="#如果设置一个盒子-直接两个颜色-没有渐变过渡" aria-hidden="true">#</a> 如果设置一个盒子，直接两个颜色，没有渐变过渡</h3>
-<p>​	  background:linear-gradient(to left, red 50%,green 50%)；</p>
-<h1 id="transition过渡" tabindex="-1"><a class="header-anchor" href="#transition过渡" aria-hidden="true">#</a> transition过渡</h1>
-<p>​	必须通过事件触发</p>
-<p>​		transition:参与过渡的属性，过渡的完成时间，延迟执行，速度动画</p>
-<p>​			transition-property	参与过渡的属性</p>
-<p>​			transition-duration	过渡完成的时间</p>
-<p>​			transition-delay		过渡开始的延迟</p>
-<p>​			transition-timing-function	速度动画</p>
-<p>​							linear（匀速）</p>
-<p>​							ease（逐渐变慢，默认）</p>
-<p>​							ease-in（加速）</p>
-<p>​							ease-out（减速）</p>
-<p>​							ease-in-out（先加后减）</p>
-<p>​		速度属性值:cubic-bezier()
-​		贝塞尔曲线网址:http://cubic-bezier.com/</p>
-<h1 id="_2d" tabindex="-1"><a class="header-anchor" href="#_2d" aria-hidden="true">#</a> 2D</h1>
-<h2 id="transform-origin-px-单词" tabindex="-1"><a class="header-anchor" href="#transform-origin-px-单词" aria-hidden="true">#</a> transform-origin:px / 单词 /%</h2>
-<p>​		设置旋转 / 缩放 位置</p>
-<h2 id="_2d偏移" tabindex="-1"><a class="header-anchor" href="#_2d偏移" aria-hidden="true">#</a> 2d偏移</h2>
-<p>​	transform:translate（x轴，y轴）</p>
-<p>​	transform:translateX（x轴）</p>
-<p>​	transform:translateY（y轴）</p>
-<p>​	偏移的值可以设置% / px （百分比设相对于元素自身的宽高）</p>
-<h3 id="水平垂直居中" tabindex="-1"><a class="header-anchor" href="#水平垂直居中" aria-hidden="true">#</a> 水平垂直居中</h3>
-<p>​			父元素:position:relative</p>
-<p>​			子元素:position:absolute</p>
-<p>​								left:50%；</p>
-<p>​								top:50%；</p>
-<p>​								transform:translate（-50%，-50%）</p>
-<h2 id="_2d缩放" tabindex="-1"><a class="header-anchor" href="#_2d缩放" aria-hidden="true">#</a> 2d缩放</h2>
-<p>​	值设置倍数，1不变，大于1变大，小于1变小，负数反向放大</p>
-<p>​	transform:scale（x轴，y轴）</p>
-<p>​	transform:scaleX（x轴）</p>
-<p>​	transform:scaleY（y轴）</p>
-<p>​				【注】缩放可以负值，是反方向缩放</p>
-<h2 id="_2d旋转" tabindex="-1"><a class="header-anchor" href="#_2d旋转" aria-hidden="true">#</a> 2d旋转</h2>
-<p>​	transform:rotate（）正值顺时针，负值逆时针</p>
-<p>​	transform:rotateX（）上下旋转</p>
-<p>​	transform:rotateY（）左右旋转</p>
-<h2 id="_2d倾斜-deg" tabindex="-1"><a class="header-anchor" href="#_2d倾斜-deg" aria-hidden="true">#</a> 2d倾斜(deg)</h2>
-<p>​	transform:skew（x轴，y轴）</p>
-<p>​	transform:skewX（x轴）</p>
-<p>​	transform:skewY（y轴）</p>
-<h1 id="_3d" tabindex="-1"><a class="header-anchor" href="#_3d" aria-hidden="true">#</a> 3D</h1>
-<h2 id="创建3d空间" tabindex="-1"><a class="header-anchor" href="#创建3d空间" aria-hidden="true">#</a> 创建3d空间</h2>
-<p>​	transform-style:presereve-3d；</p>
-<h2 id="_3d的偏移" tabindex="-1"><a class="header-anchor" href="#_3d的偏移" aria-hidden="true">#</a> 3d的偏移</h2>
-<p>​	前后偏移（正前负后）</p>
-<p>​		transform:translate3d（x,y,z）</p>
-<p>​		transform:translateX / Y / Z</p>
-<h2 id="_3d旋转" tabindex="-1"><a class="header-anchor" href="#_3d旋转" aria-hidden="true">#</a> 3d旋转</h2>
-<p>​	3d旋转</p>
-<p>​					3d空间下</p>
-<p>​	transform:rotateX（）</p>
-<p>​								正值往后躺</p>
-<p>​								负值往前趴</p>
-<p>​	transform:rotateY（）</p>
-<p>​					3d空间下</p>
-<p>​								正值往右转</p>
-<p>​								负值往左转</p>
-<p>​	transform:ritateZ（）</p>
-<p>​					3d空间下</p>
-<p>​								正值顺时针</p>
-<p>​								负值逆时针</p>
-<h2 id="_3d缩放" tabindex="-1"><a class="header-anchor" href="#_3d缩放" aria-hidden="true">#</a> 3d缩放</h2>
-<p>​	transform:scale3d（x,y,z）</p>
-<p>​	transform:scaleZ（z）</p>
-<p>【注】z轴缩放需要配合其他功能函数一起使用,要写在其他效果前</p>
-<h1 id="动画" tabindex="-1"><a class="header-anchor" href="#动画" aria-hidden="true">#</a> 动画</h1>
-<p>1，创建动画</p>
-<p>​	@keyframes	动画名{</p>
-<p>​		0%{}</p>
-<p>​		100%{}</p>
-<p>​	}</p>
-<p>2执行动画</p>
-<p>​	animation:动画名 / 动画时间 / 动画速度 / 延迟 / 执行次数 / 动画状态 / 停止位置</p>
-<p>​				animation-name			动画名</p>
-<p>​				animation-duration		动画时间</p>
-<p>​				animation-timing-function		动画速度</p>
-<p>​									linear		匀速</p>
-<p>​									ease		逐渐变慢</p>
-<p>​									ease-in	加速</p>
-<p>​									ease-out	减速</p>
-<p>​									ease-in-out	先快后慢</p>
-<p>​									step-start		省略中间动画过程，直接跳到关键字帧开始的位置</p>
-<p>​									step-end		省略中间动画过程，直接跳到关键帧结束的地方</p>
-<p>​				animation-delay				延迟动画</p>
-<p>​				animation-iteration-count	动画循环次数</p>
-<p>​									number		直接写数字</p>
-<p>​									infinite			无限循环</p>
-<p>​				animation-play-state		动画的状态（单独使用）</p>
-<p>​								paused			停止运动</p>
-<p>​				animation-fill-mode		动画停止位置</p>
-<p>​								none（backwards）停止在动画的第一帧，，默认</p>
-<p>​								both（forwards）		停止在动画执行的最后一帧</p>
-<h1 id="动画与过渡的区别" tabindex="-1"><a class="header-anchor" href="#动画与过渡的区别" aria-hidden="true">#</a> 动画与过渡的区别</h1>
-<p>​	animation与transition</p>
-<p>​		相同点:都是随时间改变css属性值</p>
-<p>​		不同点:</p>
-<p>​				transition:需要事件触发才能执行</p>
-<p>​				animation:不需要世界触发也也可以执行动画</p>
-<h1 id="景深" tabindex="-1"><a class="header-anchor" href="#景深" aria-hidden="true">#</a> 景深</h1>
-<p>​	perspective（加强2d / 3d 效果，进大远小）</p>
-<p>父元素:每一个子元素的景深下效果都不一样</p>
-<p>​		perspective:1200px</p>
-<p>子元素:每一个子元素的景深效果都一样</p>
-<p>​		prespective:1200px</p>
-<h1 id="改变鼠标指针" tabindex="-1"><a class="header-anchor" href="#改变鼠标指针" aria-hidden="true">#</a> 改变鼠标指针</h1>
-<h2 id="cursor" tabindex="-1"><a class="header-anchor" href="#cursor" aria-hidden="true">#</a> cursor:</h2>
-<p>​		pointer		小手</p>
-<p>​		wait			加载</p>
-<p>​		help			问号</p>
-<p>​		text			文本输入光标</p>
-<p>​		# 浏览器的前缀</p>
-<p>​	IE						   -ms-</p>
-<p>​	谷歌和苹果			-webkit-</p>
-<p>​	火狐					   -mzo-</p>
-<p>​	欧朋					   -o-</p>
-<h2 id="书写方法" tabindex="-1"><a class="header-anchor" href="#书写方法" aria-hidden="true">#</a> 书写方法</h2>
-<p>​	优雅降级（从大到小）</p>
-<p>​		div{</p>
-<p>​				transition:all 1s；</p>
-<p>​				-webkit-transition:all 1s；</p>
-<p>​				-o-transition:all 1s；</p>
-<p>​				-moz-transition:all 1s；</p>
-<p>​			}</p>
-<p>​	渐进增强（从小到大）</p>
-<p>​			div{</p>
-<p>​					-webkit-transition:all 1s；</p>
-<p>​					-moz-transition:all 1s;</p>
-<p>​					-o-transition:all 1s；</p>
-<p>​					transition:all 1s；</p>
-<p>​					}</p>
+<p><strong><a href="https://www.runoob.com/cssref/css3-pr-column-count.html" target="_blank" rel="noopener noreferrer">详细文档<ExternalLinkIcon/></a></strong></p>
+</div>
+<details class="custom-container details"><summary>点击查看示例</summary>
+<div style="width:400px;column-count:3;column-gap:10px;border:1px solid #333;">
+<div style="height:80px;border:1px solid #333"></div>
+<div style="height:80px;border:1px solid #333"></div>
+<div style="height:80px;border:1px solid #333"></div>
+</div>
+</details>
 </div></template>

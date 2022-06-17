@@ -1,6 +1,5 @@
 ---
 sidebar: false
-lastUpdated: true
 
 lang: zh-CN
 title: 学习路线

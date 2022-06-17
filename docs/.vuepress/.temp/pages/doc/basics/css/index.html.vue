@@ -25,4 +25,36 @@
 <h2 id="定义横竖屏" tabindex="-1"><a class="header-anchor" href="#定义横竖屏" aria-hidden="true">#</a> 定义横竖屏</h2>
 <p>​		orientation:portrait					竖屏</p>
 <p>​		orientation:landscape				横屏</p>
+<h1 id="图片整合" tabindex="-1"><a class="header-anchor" href="#图片整合" aria-hidden="true">#</a> 图片整合</h1>
+<p>​	CSS Sprites / css精灵图 / 雪碧图</p>
+<p>​	把网页里的小图片整合到大的背景图，通过背景插入的形式和核心属性background-position移动图片的位置，来显示部分图片的内容</p>
+<p>​	好处:
+​		减少图片对服务器的请求次数，可以提升网页的加载速度
+​		也可以减少图片的体积</p>
+<h1 id="改变鼠标指针" tabindex="-1"><a class="header-anchor" href="#改变鼠标指针" aria-hidden="true">#</a> 改变鼠标指针</h1>
+<h2 id="cursor" tabindex="-1"><a class="header-anchor" href="#cursor" aria-hidden="true">#</a> cursor:</h2>
+<p>​ pointer 小手</p>
+<p>​ wait 加载</p>
+<p>​ help 问号</p>
+<p>​ text 文本输入光标</p>
+<p>​ # 浏览器的前缀</p>
+<p>​ IE -ms-</p>
+<p>​ 谷歌和苹果 -webkit-</p>
+<p>​ 火狐 -mzo-</p>
+<p>​ 欧朋 -o-</p>
+<h2 id="书写方法" tabindex="-1"><a class="header-anchor" href="#书写方法" aria-hidden="true">#</a> 书写方法</h2>
+<p>​ 优雅降级（从大到小）</p>
+<p>​ div{</p>
+<p>​ transition:all 1s；</p>
+<p>​ -webkit-transition:all 1s；</p>
+<p>​ -o-transition:all 1s；</p>
+<p>​ -moz-transition:all 1s；</p>
+<p>​ }</p>
+<p>​ 渐进增强（从小到大）</p>
+<p>​ div{</p>
+<p>​ -webkit-transition:all 1s；</p>
+<p>​ -moz-transition:all 1s;</p>
+<p>​ -o-transition:all 1s；</p>
+<p>​ transition:all 1s；</p>
+<p>​ }</p>
 </div></template>
