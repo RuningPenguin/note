@@ -1,0 +1,8 @@
+:root {
+  scroll-behavior: smooth;
+  --index-bg: rgba(0, 0, 0, 0.12);
+}
+
+html.dark {
+  --index-bg: rgba(255, 255, 255, 0.3);
+}

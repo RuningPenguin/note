@@ -73,7 +73,7 @@
 </ul>
 </div>
 <h2 id="reactive-与-ref" tabindex="-1"><a class="header-anchor" href="#reactive-与-ref" aria-hidden="true">#</a> reactive 与 ref</h2>
-<div class="custom-container tip"><p class="custom-container-title">TIP</p>
+<div class="custom-container tip"><p class="custom-container-title">提示</p>
 <p><strong>用来生成响应式数据的Api</strong></p>
 <p><strong>ref的本质还是通过reactive创建的响应式数据</strong></p>
 </div>
