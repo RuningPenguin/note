@@ -1,141 +1,397 @@
 <template><div><h1 id="网页布局" tabindex="-1"><a class="header-anchor" href="#网页布局" aria-hidden="true">#</a> 网页布局</h1>
-<h1 id="怪异盒模型" tabindex="-1"><a class="header-anchor" href="#怪异盒模型" aria-hidden="true">#</a> 怪异盒模型</h1>
-<p>（IE盒模型）</p>
-<p>盒子转换	border-sizing：</p>
-<p>​									border-box		怪异盒</p>
-<p>​									content-box		标准盒（默认）</p>
-<p>​		计算方式	总宽度=width（包含border和padding）</p>
-<h1 id="弹性盒" tabindex="-1"><a class="header-anchor" href="#弹性盒" aria-hidden="true">#</a> 弹性盒</h1>
-<p>​	vertical-align / clear / float（无作用）</p>
-<p>​	控制子元素在父元素内的排列方式</p>
-<p>​		display：flex；</p>
-<p>​		display：inline-flex；</p>
-<p>​	弹性盒内的内容水平垂直居中</p>
-<p>​		父元素：display：flex；</p>
-<p>​		子元素：margin：auto；</p>
-<p>​	弹性盒的子元素也叫灵活元素，如果灵活元素是内联元素的话也可以设置宽高</p>
-<h2 id="弹性盒父元素的属性" tabindex="-1"><a class="header-anchor" href="#弹性盒父元素的属性" aria-hidden="true">#</a> 弹性盒父元素的属性</h2>
-<h3 id="定义主轴方向" tabindex="-1"><a class="header-anchor" href="#定义主轴方向" aria-hidden="true">#</a> 定义主轴方向</h3>
-<p>​	flex-direction:</p>
-<p>​			x轴（顶端左边，低端右边）默认值</p>
-<p>​						row						水平方向，在主轴顶端显示，排列效果类似左浮动</p>
-<p>​						row-reverse			水平方向，在主轴上的底端显示排列效果类似右浮动</p>
-<p>​			Y轴（顶端上，底端下）</p>
-<p>​						column					垂直方向，在主轴的顶端显示，从上往下排列</p>
-<p>​						column-reverse		垂直方向，在主轴底端显示，从下往上排列</p>
-<h3 id="定义灵活元素换行" tabindex="-1"><a class="header-anchor" href="#定义灵活元素换行" aria-hidden="true">#</a> 定义灵活元素换行</h3>
-<p>​		flex-wrap</p>
-<p>​				nowrap		挤压内容，不换行（默认）</p>
-<p>​				wrap			自动换行，如父元素有高度会自动有距离</p>
-<p>​				wrap-reverse	自动换行，内容反转，也有距离</p>
-<p>​		主轴方向和换行的简写</p>
-<p>​				flex-flow：row	nowrap（默认值）</p>
-<h3 id="设置主轴的对齐方式" tabindex="-1"><a class="header-anchor" href="#设置主轴的对齐方式" aria-hidden="true">#</a> 设置主轴的对齐方式</h3>
-<p>​		justify-content：</p>
-<p>​						flex-start			（主轴顶端对齐）</p>
-<p>​						flex-end				（主轴底端对齐）</p>
-<p>​						center					主轴居中</p>
-<p>​						space-evenly		所有盒子平分距离</p>
-<p>​						space-around		每个盒子左右距离一样</p>
-<p>​						space-between	两端对齐，中间距离平分</p>
-<h3 id="设置侧轴对齐方向" tabindex="-1"><a class="header-anchor" href="#设置侧轴对齐方向" aria-hidden="true">#</a> 设置侧轴对齐方向</h3>
-<p>​		align-items</p>
-<p>​					flex-start					侧轴顶端对齐</p>
-<p>​					flex-end					侧轴底部对齐</p>
-<p>​					center						侧轴居中</p>
-<p>​					strecth						拉伸，拉伸方向不能设置高度，或宽度</p>
-<p>​					baseline						基线对齐（内容对齐，侧轴是y轴才有效果）</p>
-<h3 id="设置多行侧轴对齐方式" tabindex="-1"><a class="header-anchor" href="#设置多行侧轴对齐方式" aria-hidden="true">#</a> 设置多行侧轴对齐方式</h3>
-<p>​		align-content</p>
-<p>​					flex-start					取消行间距，侧轴顶部对齐</p>
-<p>​					flex-end					取消行间距，侧轴底部对齐</p>
-<p>​					center						取消行间距，侧轴居中</p>
-<p>​					stretch						拉伸</p>
-<p>​					space-around			平分行间距（上下一样）</p>
-<p>​					space-between			两端对齐，中间自动平分</p>
-<p>​					space-evenly				所有行间距都一样</p>
-<h1 id="弹性盒的子元素的属性" tabindex="-1"><a class="header-anchor" href="#弹性盒的子元素的属性" aria-hidden="true">#</a> 弹性盒的子元素的属性</h1>
-<p>​	对灵活元素单独设置的属性</p>
-<p>​			order	设置内容的排列顺序（值越大越往后，可以负值，默认0）</p>
-<h2 id="设置单独灵活元素的侧轴" tabindex="-1"><a class="header-anchor" href="#设置单独灵活元素的侧轴" aria-hidden="true">#</a> 设置单独灵活元素的侧轴</h2>
-<p>​			align-self</p>
-<p>​						flex-start					单独灵活元素的侧轴顶端对齐</p>
-<p>​						flex-end					单独灵活元素的侧轴底端对齐</p>
-<p>​						center						单独灵活元素的侧轴居中</p>
-<p>​						stretch						单独灵活元素的内容拉伸</p>
-<p>​						auto							继承父元素的aling-items值</p>
-<h2 id="分配灵活元素的空间-flex" tabindex="-1"><a class="header-anchor" href="#分配灵活元素的空间-flex" aria-hidden="true">#</a> 分配灵活元素的空间（flex）</h2>
-<p>​		flex-grow		拉伸（X轴拉伸宽，Y轴拉伸高）</p>
-<p>​						【注】灵活元素的宽高不能大于父元素，需要有剩余宽高，默认值0</p>
-<p>​		flex-shrink		收缩</p>
-<p>​						【注】灵活元素的宽高必须大与父元素，默认值1 / auto</p>
-<p>​							flex-shrink：0；（不收缩）</p>
-<p>​		flex-basis</p>
-<p>​						重新分配灵活元素的宽或高（px / % / auto）</p>
-<p>​							默认值auto，auto是灵活元素的本身宽高</p>
-<p>复合属性flex：flex-grow拉伸、flex-shrink收缩、flex-basis；</p>
-<p>默认值	flex：0 1 auto；</p>
-<p>​		flex：1；	------》flex：1 1 0%；</p>
-<p>​		flex：auto；		----------------》flex：1 1 auto；</p>
-<p>​		flex：none；		--------------》flex：0 0 auto；</p>
-<h2 id="形成grid布局" tabindex="-1"><a class="header-anchor" href="#形成grid布局" aria-hidden="true">#</a> 形成grid布局</h2>
-<p>​    display:grid</p>
-<p>划分行和列	
-grid-template-columns:
-grid-template-rows:	
-属性值（根据值的个数确定列数）：
-1：固定的数值   100px   100px   100px
-2：百分比             33.33% 33.33%  33.33%
-3：功能函数 &amp; 关键字
-repeat() 功能函数
-fr关键字(列宽片段)
-minmax() 功能函数
-auto 关键字  自动填充</p>
-<h2 id="间距" tabindex="-1"><a class="header-anchor" href="#间距" aria-hidden="true">#</a> 间距</h2>
-<p>​    行间距
-​      grid-row-gap
-​    列间距
-​     grid-column-gap
-​</p>
-<pre><code> 复合写法grid-gap:
-</code></pre>
-<h2 id="定义内容区域划分" tabindex="-1"><a class="header-anchor" href="#定义内容区域划分" aria-hidden="true">#</a> 定义内容区域划分</h2>
-<p>父元素
-grid-template-areas:
-&quot;a1 a1 a1&quot;
-&quot;a2 a2 a3&quot;
-&quot;a2 a2 a3&quot;</p>
-<p>子元素
-grid-area</p>
-<p>设置内容水平对齐和垂直对齐
-水平对齐
-justify-items:<br>
-start
-end
-center
-stretch
-垂直对齐
-align-items
-start
-end
-center
-stretch</p>
-<pre><code>    复合写法
-        place-items： 垂直  水平 
-</code></pre>
-<h2 id="子元素" tabindex="-1"><a class="header-anchor" href="#子元素" aria-hidden="true">#</a> 子元素</h2>
-<pre><code>设置单独内容的位置和占位
- 
-    grid-column-start属性：左边框所在的垂直网格线
-    grid-column-end属性：右边框所在的垂直网格线
-    grid-row-start属性：上边框所在的水平网格线
-    grid-row-end属性：下边框所在的水平网格线
-
-
-    简写
-        grid-column: 起始  结束
-        grid-row:    起始  结束
-        grid-area:横纵横纵
-</code></pre>
+<h2 id="怪异盒模型" tabindex="-1"><a class="header-anchor" href="#怪异盒模型" aria-hidden="true">#</a> 怪异盒模型</h2>
+<p><strong>（IE盒模型）</strong></p>
+<table>
+<thead>
+<tr>
+<th style="text-align:center">属性</th>
+<th style="text-align:center">值</th>
+<th style="text-align:center">计算方式</th>
+</tr>
+</thead>
+<tbody>
+<tr>
+<td style="text-align:center">border-sizing</td>
+<td style="text-align:center">border-box(怪异盒)</td>
+<td style="text-align:center">总宽度=width（包含border和padding）</td>
+</tr>
+<tr>
+<td style="text-align:center">border-sizing</td>
+<td style="text-align:center">content-box(标准盒 默认)</td>
+<td style="text-align:center">总宽度=width</td>
+</tr>
+</tbody>
+</table>
+<h2 id="弹性盒-flex" tabindex="-1"><a class="header-anchor" href="#弹性盒-flex" aria-hidden="true">#</a> <a href="https://www.ruanyifeng.com/blog/2015/07/flex-grammar.html" target="_blank" rel="noopener noreferrer">弹性盒(flex)<ExternalLinkIcon/></a></h2>
+<p><strong>元素为flex时 vertical-align / clear / float（无作用）</strong></p>
+<div class="custom-container tip"><p class="custom-container-title">提示</p>
+<p>控制子元素在父元素内的排列方式<br/>
+​display: flex;<br/>
+​display: inline-flex;<br/>
+​弹性盒内的内容水平垂直居中<br/>
+​父元素: display: flex;<br/>
+​子元素: margin: auto;<br/>
+​弹性盒的子元素也叫灵活元素，如果灵活元素是内联元素的话也可以设置宽高<br/></p>
+</div>
+<h3 id="弹性盒父元素的属性" tabindex="-1"><a class="header-anchor" href="#弹性盒父元素的属性" aria-hidden="true">#</a> 弹性盒父元素的属性</h3>
+<table>
+  <tr>
+    <th>属性</th>
+    <th>值</th>
+    <th>说明</th>
+  </tr>
+  <tbody>
+    <tr>
+      <th rowspan="4">flex-direction<br/>定义主轴方向</th>
+      <td>row	</td>
+      <td>水平方向，在主轴顶端显示，排列效果类似左浮动</td>
+    </tr>
+    <tr>
+      <td>row-reverse	</td>
+      <td>水平方向，在主轴上的底端显示排列效果类似右浮动</td>
+    </tr>
+    <tr>
+      <td>column</td>
+      <td>垂直方向，在主轴的顶端显示，从上往下排列</td>
+    </tr>
+    <tr>
+      <td>column-reverse</td>
+      <td>垂直方向，在主轴底端显示，从下往上排列</td>
+    </tr>
+  </tbody>
+  <tbody>
+    <tr>
+      <th rowspan="4">flex-wrap<br/>定义灵活元素换行</th>
+      <td>nowrap	</td>
+      <td>挤压内容，不换行（默认）</td>
+    </tr>
+    <tr>
+      <td>wrap	</td>
+      <td>自动换行，如父元素有高度会自动有距离</td>
+    </tr>
+    <tr>
+      <td>wrap-reverse</td>
+      <td>自动换行，内容反转，也有距离</td>
+    </tr>
+    <tr>
+      <th>flex-flow：row	nowrap（默认值）</th>
+      <th>主轴方向和换行的简写</th>
+    </tr>
+  </tbody>
+  <tbody>
+    <tr>
+      <th rowspan="6">justify-content<br/>设置主轴的对齐方式</th>
+      <td>flex-start	</td>
+      <td>主轴顶端对齐</td>
+    </tr>
+    <tr>
+      <td>flex-end	</td>
+      <td>主轴底端对齐</td>
+    </tr>
+    <tr>
+      <td>center</td>
+      <td>主轴居中</td>
+    </tr>
+    <tr>
+      <td>space-evenly</td>
+      <td>所有盒子平分距离</td>
+    </tr>
+    <tr>
+      <td>space-around</td>
+      <td>每个盒子左右距离一样</td>
+    </tr>
+    <tr>
+      <td>space-between</td>
+      <td>两端对齐，中间距离平</td>
+    </tr>
+  </tbody>
+  <tbody>
+    <tr>
+      <th rowspan="5">align-items<br/>设置侧轴对齐方向</th>
+      <td>flex-start	</td>
+      <td>侧轴顶端对齐</td>
+    </tr>
+    <tr>
+      <td>flex-end	</td>
+      <td>侧轴底部对齐</td>
+    </tr>
+    <tr>
+      <td>center</td>
+      <td>侧轴居中</td>
+    </tr>
+    <tr>
+      <td>stretch</td>
+      <td>拉伸，拉伸方向不能设置高度，或宽度</td>
+    </tr>
+    <tr>
+      <td>baseline</td>
+      <td>基线对齐（内容对齐，侧轴是y轴才有效果）</td>
+    </tr>
+  </tbody>
+  <tbody>
+    <tr>
+      <th rowspan="7">align-content<br/>设置多行侧轴对齐方式</th>
+      <td>flex-start	</td>
+      <td>取消行间距，侧轴顶部对齐</td>
+    </tr>
+    <tr>
+      <td>flex-end	</td>
+      <td>取消行间距，侧轴底部对齐</td>
+    </tr>
+    <tr>
+      <td>center</td>
+      <td>取消行间距，侧轴居中</td>
+    </tr>
+    <tr>
+      <td>stretch</td>
+      <td>拉伸</td>
+    </tr>
+    <tr>
+      <td>space-around</td>
+      <td>平分行间距（上下一样）</td>
+    </tr>
+    <tr>
+      <td>space-between</td>
+      <td>两端对齐，中间自动平分</td>
+    </tr>
+    <tr>
+      <td>space-evenly</td>
+      <td>所有行间距都一样</td>
+    </tr>
+  </tbody>
+</table>
+<h3 id="弹性盒的子元素的属性" tabindex="-1"><a class="header-anchor" href="#弹性盒的子元素的属性" aria-hidden="true">#</a> 弹性盒的子元素的属性</h3>
+<p><strong>对灵活元素单独设置的属性</strong></p>
+<table>
+  <tr>
+    <th>属性</th>
+    <th>值</th>
+    <th>说明</th>
+  </tr>
+  <tbody>
+    <tr>
+      <th>order<br/>设置内容的排列顺序</th>
+      <td><b>n</b>: 数字	</td>
+      <td>值越大越往后，可以负值，默认0</td>
+    </tr>
+  </tbody>
+  <tbody>
+    <tr>
+      <th rowspan="5">align-self<br/>设置单独灵活元素的侧轴</th>
+      <td>flex-start</td>
+      <td>单独灵活元素的侧轴顶端对齐</td>
+    </tr>
+    <tr>
+      <td>flex-end</td>
+      <td>单独灵活元素的侧轴底端对齐</td>
+    </tr>
+    <tr>
+      <td>center</td>
+      <td>单独灵活元素的侧轴居中</td>
+    </tr>
+    <tr>
+      <td>stretch</td>
+      <td>单独灵活元素的内容拉伸</td>
+    </tr>
+    <tr>
+      <td>auto</td>
+      <td>继承父元素的align-items值</td>
+    </tr>
+  </tbody>
+  <tbody>
+    <tr>
+      <th rowspan="4">flex<br/>分配灵活元素的空间</th>
+      <td><b>flex: flex-grow flex-shrink flex-basis;</b> 复合属性</td>
+      <td>默认值	flex: 0 1 auto;<br/>flex: 1; => flex: 1 1 0%;<br/>flex: auto; => flex: 1 1 auto;<br/>flex: none; => flex: 0 0 auto;</td>
+    </tr>
+    <tr>
+      <td>flex-grow</td>
+      <td>拉伸（X轴拉伸宽，Y轴拉伸高）<br/>【注】灵活元素的宽高不能大于父元素，需要有剩余宽高，默认值0		</td>
+    </tr>
+    <tr>
+      <td>flex-shrink</td>
+      <td>收缩 flex-shrink: 0;（不收缩）<br/>【注】灵活元素的宽高必须大与父元素, 默认值1 / auto</td>
+    </tr>
+    <tr>
+      <td>flex-basis</td>
+      <td>重新分配灵活元素的宽或高（px / % / auto）.br.>	默认值auto，auto是灵活元素的本身宽高</td>
+    </tr>
+  </tbody>
+</table>
+<h2 id="网格布局-grid" tabindex="-1"><a class="header-anchor" href="#网格布局-grid" aria-hidden="true">#</a> <a href="https://www.ruanyifeng.com/blog/2019/03/grid-layout-tutorial.html" target="_blank" rel="noopener noreferrer">网格布局(grid)<ExternalLinkIcon/></a></h2>
+<div class="custom-container tip"><p class="custom-container-title">提示</p>
+<p>声明布局格式为网格布局
+display:grid</p>
+</div>
+<h3 id="网格布局父元素的属性" tabindex="-1"><a class="header-anchor" href="#网格布局父元素的属性" aria-hidden="true">#</a> 网格布局父元素的属性</h3>
+<table>
+  <tr>
+    <th>属性</th>
+    <th>值</th>
+    <th>说明</th>
+  </tr>
+  <tbody>
+    <tr>
+      <th><a href="#grid-template-columns">grid-template-rows<br/>划分行(必须的)</a></th>
+      <td>	1：固定的数值   100px   100px   100px<br/>2：百分比<br/>3：功能函数 & 关键字<br/> repeat() 功能函数
+			fr关键字(列宽片段)
+			minmax() 功能函数
+			auto 关键字  自动填充           	</td>
+      <td>属性值（根据值的个数确定行数）</td>
+    </tr>
+    <tr>
+      <th><a href="#grid-template-columns">grid-template-columns<br/>划分列(必须的)</a></th>
+      <td>	1：固定的数值   100px   100px   100px<br/>2：百分比<br/>3：功能函数 & 关键字<br/> repeat() 功能函数
+			fr关键字(列宽片段)
+			minmax() 功能函数
+			auto 关键字  自动填充           	</td>
+      <td>属性值（根据值的个数确定列数）</td>
+    </tr>
+  </tbody>
+  <tbody>
+    <tr>
+      <th>grid-row-gap<br/>行间距</th>
+      <td><b>n</b>数字 单位(px)</td>
+      <td>行间距</td>
+    </tr>
+    <tr>
+      <th>grid-column-gap<br/>列间距</th>
+      <td><b>n</b>数字 单位(px)</td>
+      <td>列间距</td>
+    </tr>
+    <tr>
+      <th></th>
+      <th>grid-gap:行间距 列间距 <br/>复合写法</th>
+      <td><b>n</b>数字 单位(px)</td>
+    </tr>
+  </tbody>
+  <tbody>
+    <tr>
+      <th><a href="#grid-template-areas">grid-template-areas<br/>定义内容区域划分</a></th>
+      <td><b> "a1 a1 a1" <br/>"a2 a2 a3"<br/>"a2 a2 a3"</b></td>
+      <td> 子元素通过<b>grid-area: a1</b>使用</td>
+    </tr>
+    <tr>
+      <th>grid-column-gap<br/>列间距</th>
+      <td><b>n</b>数字 单位(px)</td>
+      <td>列间距</td>
+    </tr>
+    <tr>
+      <th></th>
+      <th>grid-gap:行间距 列间距 <br/>复合写法</th>
+      <td><b>n</b>数字 单位(px)</td>
+    </tr>
+  </tbody>
+  <tbody>
+    <tr>
+      <th rowspan="5">justify-items/align-items<br/>水平对齐/垂直对齐</th>
+      <td>start</td>
+      <td>对齐单元格的起始边缘</td>
+    </tr>
+    <tr>
+      <td>end</td>
+      <td>对齐单元格的结束边缘</td>
+    </tr>
+    <tr>
+      <td>center</td>
+      <td>单元格内部居中</td>
+    </tr>
+    <tr>
+      <td>stretch</td>
+      <td>拉伸，占满单元格的整个宽度（默认值）</td>
+    </tr>
+     <tr>
+      <th>place-items: 垂直  水平</th>
+      <td>复合写法</td>
+    </tr>
+  </tbody>
+</table>
+<h4 id="grid-template-columns" tabindex="-1"><a class="header-anchor" href="#grid-template-columns" aria-hidden="true">#</a> grid-template-columns</h4>
+<p><strong>划分行和列<code v-pre>grid-template-columns/grid-template-rows</code></strong></p>
+<ul>
+<li>属性值（根据值的个数确定列数）:
+<ol>
+<li>固定的数值   100px   100px   100px</li>
+<li>百分比             33.33% 33.33%  33.33%</li>
+<li>功能函数 &amp; 关键字
+<ul>
+<li>repeat() 功能函数</li>
+<li>fr关键字(列宽片段)</li>
+<li>minmax() 功能函数</li>
+<li>auto 关键字  自动填充</li>
+</ul>
+</li>
+</ol>
+</li>
+</ul>
+<h4 id="grid-template-areas" tabindex="-1"><a class="header-anchor" href="#grid-template-areas" aria-hidden="true">#</a> grid-template-areas</h4>
+<ul>
+<li>父元素
+<ul>
+<li>grid-template-areas:
+<ul>
+<li>&quot;a1 a1 a1&quot;</li>
+<li>&quot;a2 a2 a3&quot;</li>
+<li>&quot;a2 a2 a3&quot;</li>
+</ul>
+</li>
+</ul>
+</li>
+<li>子元素 (使用)
+<ul>
+<li>grid-area : a1</li>
+</ul>
+</li>
+</ul>
+<h3 id="网格布局子元素的属性" tabindex="-1"><a class="header-anchor" href="#网格布局子元素的属性" aria-hidden="true">#</a> 网格布局子元素的属性</h3>
+<p><strong>设置单独内容的位置和占位</strong></p>
+<table>
+  <tr>
+    <th>属性</th>
+    <th>值</th>
+    <th>说明</th>
+  </tr>
+  <tbody>
+    <tr>
+      <th>grid-area</th>
+      <td>父元素的<b>grid-template-areas</b>的一个值</td>
+      <td>指定项目放在哪一个区域</td>
+    </tr>
+  </tbody>
+  <tbody>
+    <tr>
+      <th>grid-column-start</th>
+      <td><b>n</b>网格线序号</td>
+      <td>左边框所在的垂直网格线</td>
+    </tr>
+    <tr>
+      <th>grid-column-end</th>
+      <td><b>n</b>网格线序号</td>
+      <td>右边框所在的垂直网格线</td>
+    </tr>
+    <tr>
+      <th></th>
+      <th>grid-column: 起始  结束</th>
+      <td>grid-column-start/grid-column-end 的合并简写形式</td>
+    </tr>
+  </tbody>
+  <tbody>
+    <tr>
+      <th>grid-row-start</th>
+      <td><b>n</b>网格线序号</td>
+      <td>上边框所在的水平网格线</td>
+    </tr>
+    <tr>
+      <th>grid-row-end</th>
+      <td><b>n</b>网格线序号</td>
+      <td>下边框所在的水平网格线</td>
+    </tr>
+    <tr>
+      <th></th>
+      <th>grid-row: 起始  结束</th>
+      <td>grid-row-start/grid-row-end 的合并简写形式</td>
+    </tr>
+  </tbody>
+</table>
 <p>​</p>
 </div></template>

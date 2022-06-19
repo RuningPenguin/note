@@ -222,6 +222,13 @@ export const searchIndex = [
   {
     "title": "",
     "headers": [],
+    "path": "/about/qie/",
+    "pathLocale": "/",
+    "extraFields": []
+  },
+  {
+    "title": "",
+    "headers": [],
     "path": "/doc/git/",
     "pathLocale": "/",
     "extraFields": []
@@ -229,7 +236,7 @@ export const searchIndex = [
   {
     "title": "",
     "headers": [],
-    "path": "/about/qie/",
+    "path": "/doc/jquery/",
     "pathLocale": "/",
     "extraFields": []
   },
@@ -264,7 +271,7 @@ export const searchIndex = [
   {
     "title": "",
     "headers": [],
-    "path": "/doc/jquery/",
+    "path": "/doc/vite/",
     "pathLocale": "/",
     "extraFields": []
   },
@@ -272,13 +279,6 @@ export const searchIndex = [
     "title": "",
     "headers": [],
     "path": "/doc/vue2/",
-    "pathLocale": "/",
-    "extraFields": []
-  },
-  {
-    "title": "",
-    "headers": [],
-    "path": "/doc/vite/",
     "pathLocale": "/",
     "extraFields": []
   },
@@ -642,76 +642,47 @@ export const searchIndex = [
     "headers": [
       {
         "level": 2,
-        "title": "弹性盒父元素的属性",
-        "slug": "弹性盒父元素的属性",
+        "title": "怪异盒模型",
+        "slug": "怪异盒模型",
+        "children": []
+      },
+      {
+        "level": 2,
+        "title": "弹性盒(flex)",
+        "slug": "弹性盒-flex",
         "children": [
           {
             "level": 3,
-            "title": "定义主轴方向",
-            "slug": "定义主轴方向",
+            "title": "弹性盒父元素的属性",
+            "slug": "弹性盒父元素的属性",
             "children": []
           },
           {
             "level": 3,
-            "title": "定义灵活元素换行",
-            "slug": "定义灵活元素换行",
-            "children": []
-          },
-          {
-            "level": 3,
-            "title": "设置主轴的对齐方式",
-            "slug": "设置主轴的对齐方式",
-            "children": []
-          },
-          {
-            "level": 3,
-            "title": "设置侧轴对齐方向",
-            "slug": "设置侧轴对齐方向",
-            "children": []
-          },
-          {
-            "level": 3,
-            "title": "设置多行侧轴对齐方式",
-            "slug": "设置多行侧轴对齐方式",
+            "title": "弹性盒的子元素的属性",
+            "slug": "弹性盒的子元素的属性",
             "children": []
           }
         ]
       },
       {
         "level": 2,
-        "title": "设置单独灵活元素的侧轴",
-        "slug": "设置单独灵活元素的侧轴",
-        "children": []
-      },
-      {
-        "level": 2,
-        "title": "分配灵活元素的空间（flex）",
-        "slug": "分配灵活元素的空间-flex",
-        "children": []
-      },
-      {
-        "level": 2,
-        "title": "形成grid布局",
-        "slug": "形成grid布局",
-        "children": []
-      },
-      {
-        "level": 2,
-        "title": "间距",
-        "slug": "间距",
-        "children": []
-      },
-      {
-        "level": 2,
-        "title": "定义内容区域划分",
-        "slug": "定义内容区域划分",
-        "children": []
-      },
-      {
-        "level": 2,
-        "title": "子元素",
-        "slug": "子元素",
-        "children": []
+        "title": "网格布局(grid)",
+        "slug": "网格布局-grid",
+        "children": [
+          {
+            "level": 3,
+            "title": "网格布局父元素的属性",
+            "slug": "网格布局父元素的属性",
+            "children": []
+          },
+          {
+            "level": 3,
+            "title": "网格布局子元素的属性",
+            "slug": "网格布局子元素的属性",
+            "children": []
+          }
+        ]
       }
     ],
     "path": "/doc/basics/css/boxModel.html",
@@ -839,6 +810,95 @@ export const searchIndex = [
     "extraFields": []
   },
   {
+    "title": "扩展",
+    "headers": [
+      {
+        "level": 2,
+        "title": "设置内容隐藏",
+        "slug": "设置内容隐藏",
+        "children": [
+          {
+            "level": 3,
+            "title": "占位隐藏",
+            "slug": "占位隐藏",
+            "children": []
+          },
+          {
+            "level": 3,
+            "title": "完全隐藏（不占位）",
+            "slug": "完全隐藏-不占位",
+            "children": []
+          }
+        ]
+      },
+      {
+        "level": 2,
+        "title": "媒体查询",
+        "slug": "媒体查询",
+        "children": []
+      },
+      {
+        "level": 2,
+        "title": "图片整合",
+        "slug": "图片整合",
+        "children": []
+      },
+      {
+        "level": 2,
+        "title": "改变鼠标指针",
+        "slug": "改变鼠标指针",
+        "children": []
+      },
+      {
+        "level": 2,
+        "title": "浏览器相关",
+        "slug": "浏览器相关",
+        "children": [
+          {
+            "level": 3,
+            "title": "兼容",
+            "slug": "兼容",
+            "children": []
+          }
+        ]
+      },
+      {
+        "level": 2,
+        "title": "移动端相关",
+        "slug": "移动端相关",
+        "children": [
+          {
+            "level": 3,
+            "title": "移动端布局",
+            "slug": "移动端布局",
+            "children": []
+          },
+          {
+            "level": 3,
+            "title": "移动端的像素比设置",
+            "slug": "移动端的像素比设置",
+            "children": []
+          },
+          {
+            "level": 3,
+            "title": "准备工作",
+            "slug": "准备工作",
+            "children": []
+          }
+        ]
+      },
+      {
+        "level": 2,
+        "title": "奇怪现象",
+        "slug": "奇怪现象",
+        "children": []
+      }
+    ],
+    "path": "/doc/basics/css/extend.html",
+    "pathLocale": "/",
+    "extraFields": []
+  },
+  {
     "title": "字体",
     "headers": [
       {
@@ -885,68 +945,6 @@ export const searchIndex = [
       }
     ],
     "path": "/doc/basics/css/font.html",
-    "pathLocale": "/",
-    "extraFields": []
-  },
-  {
-    "title": "媒体查询",
-    "headers": [
-      {
-        "level": 3,
-        "title": "占位隐藏",
-        "slug": "占位隐藏",
-        "children": []
-      },
-      {
-        "level": 3,
-        "title": "完全隐藏（不占位）",
-        "slug": "完全隐藏-不占位",
-        "children": []
-      },
-      {
-        "level": 3,
-        "title": "透明度的区别",
-        "slug": "透明度的区别",
-        "children": []
-      },
-      {
-        "level": 2,
-        "title": "作用",
-        "slug": "作用",
-        "children": []
-      },
-      {
-        "level": 2,
-        "title": "格式",
-        "slug": "格式",
-        "children": []
-      },
-      {
-        "level": 2,
-        "title": "关键字",
-        "slug": "关键字",
-        "children": []
-      },
-      {
-        "level": 2,
-        "title": "定义横竖屏",
-        "slug": "定义横竖屏",
-        "children": []
-      },
-      {
-        "level": 2,
-        "title": "cursor:",
-        "slug": "cursor",
-        "children": []
-      },
-      {
-        "level": 2,
-        "title": "书写方法",
-        "slug": "书写方法",
-        "children": []
-      }
-    ],
-    "path": "/doc/basics/css/",
     "pathLocale": "/",
     "extraFields": []
   },
@@ -1294,64 +1292,8 @@ export const searchIndex = [
     "extraFields": []
   },
   {
-    "title": "javascript",
+    "title": "js进阶",
     "headers": [
-      {
-        "level": 2,
-        "title": "js基础",
-        "slug": "js基础",
-        "children": [
-          {
-            "level": 3,
-            "title": "js的组成",
-            "slug": "js的组成",
-            "children": []
-          },
-          {
-            "level": 3,
-            "title": "js写在哪",
-            "slug": "js写在哪",
-            "children": []
-          },
-          {
-            "level": 3,
-            "title": "js写什么",
-            "slug": "js写什么",
-            "children": []
-          },
-          {
-            "level": 3,
-            "title": "数据的类型转换",
-            "slug": "数据的类型转换",
-            "children": []
-          },
-          {
-            "level": 3,
-            "title": "js的三大特殊数据",
-            "slug": "js的三大特殊数据",
-            "children": []
-          }
-        ]
-      },
-      {
-        "level": 2,
-        "title": "程序的结构",
-        "slug": "程序的结构",
-        "children": [
-          {
-            "level": 3,
-            "title": "选择（分支）结构",
-            "slug": "选择-分支-结构",
-            "children": []
-          },
-          {
-            "level": 3,
-            "title": "循环的语句",
-            "slug": "循环的语句",
-            "children": []
-          }
-        ]
-      },
       {
         "level": 2,
         "title": "函数",
@@ -1359,20 +1301,14 @@ export const searchIndex = [
         "children": [
           {
             "level": 3,
-            "title": "函数的意义",
-            "slug": "函数的意义",
+            "title": "创建函数",
+            "slug": "创建函数",
             "children": []
           },
           {
             "level": 3,
-            "title": "函数的特点",
-            "slug": "函数的特点",
-            "children": []
-          },
-          {
-            "level": 3,
-            "title": "函数的创建和执行",
-            "slug": "函数的创建和执行",
+            "title": "执行函数",
+            "slug": "执行函数",
             "children": []
           },
           {
@@ -1395,14 +1331,14 @@ export const searchIndex = [
           },
           {
             "level": 3,
-            "title": "函数的应用",
-            "slug": "函数的应用",
+            "title": "函数的返回值",
+            "slug": "函数的返回值",
             "children": []
           },
           {
             "level": 3,
-            "title": "函数的返回值",
-            "slug": "函数的返回值",
+            "title": "函数的方法",
+            "slug": "函数的方法",
             "children": []
           }
         ]
@@ -1433,56 +1369,20 @@ export const searchIndex = [
         "children": [
           {
             "level": 3,
-            "title": "概念",
-            "slug": "概念",
-            "children": []
-          },
-          {
-            "level": 3,
-            "title": "数组或对象的应用场景",
-            "slug": "数组或对象的应用场景",
-            "children": []
-          },
-          {
-            "level": 3,
             "title": "数组的创建",
             "slug": "数组的创建",
             "children": []
           },
           {
             "level": 3,
-            "title": "数组的使用",
-            "slug": "数组的使用",
+            "title": "数组的方法",
+            "slug": "数组的方法",
             "children": []
           },
           {
             "level": 3,
             "title": "数组的分类",
             "slug": "数组的分类",
-            "children": []
-          },
-          {
-            "level": 3,
-            "title": "json",
-            "slug": "json",
-            "children": []
-          },
-          {
-            "level": 3,
-            "title": "基本数据和复杂数据",
-            "slug": "基本数据和复杂数据",
-            "children": []
-          },
-          {
-            "level": 3,
-            "title": "内存中的空间划分 栈堆",
-            "slug": "内存中的空间划分-栈堆",
-            "children": []
-          },
-          {
-            "level": 3,
-            "title": "值传递和引用",
-            "slug": "值传递和引用",
             "children": []
           }
         ]
@@ -1515,15 +1415,104 @@ export const searchIndex = [
             "title": "字符编码",
             "slug": "字符编码",
             "children": []
+          },
+          {
+            "level": 3,
+            "title": "进制的转换",
+            "slug": "进制的转换",
+            "children": []
           }
         ]
       },
       {
         "level": 2,
-        "title": "进制的转换",
-        "slug": "进制的转换",
-        "children": []
+        "title": "JSON",
+        "slug": "json",
+        "children": [
+          {
+            "level": 3,
+            "title": "基本数据和复杂数据",
+            "slug": "基本数据和复杂数据",
+            "children": []
+          },
+          {
+            "level": 3,
+            "title": "内存中的空间划分 栈堆",
+            "slug": "内存中的空间划分-栈堆",
+            "children": []
+          },
+          {
+            "level": 3,
+            "title": "值传递和引用",
+            "slug": "值传递和引用",
+            "children": []
+          }
+        ]
       },
+      {
+        "level": 2,
+        "title": "对象",
+        "slug": "对象",
+        "children": [
+          {
+            "level": 3,
+            "title": "对象的创建",
+            "slug": "对象的创建",
+            "children": []
+          },
+          {
+            "level": 3,
+            "title": "对象的使用",
+            "slug": "对象的使用",
+            "children": []
+          },
+          {
+            "level": 3,
+            "title": "对象的分类",
+            "slug": "对象的分类",
+            "children": []
+          },
+          {
+            "level": 3,
+            "title": "对象的操作",
+            "slug": "对象的操作",
+            "children": []
+          },
+          {
+            "level": 3,
+            "title": "Math",
+            "slug": "math",
+            "children": []
+          },
+          {
+            "level": 3,
+            "title": "Data",
+            "slug": "data",
+            "children": []
+          }
+        ]
+      },
+      {
+        "level": 2,
+        "title": "this",
+        "slug": "this",
+        "children": []
+      }
+    ],
+    "path": "/doc/basics/js/advanced.html",
+    "pathLocale": "/",
+    "extraFields": []
+  },
+  {
+    "title": "",
+    "headers": [],
+    "path": "/doc/basics/js/core.html",
+    "pathLocale": "/",
+    "extraFields": []
+  },
+  {
+    "title": "javascript",
+    "headers": [
       {
         "level": 2,
         "title": "ES5：",
@@ -1552,96 +1541,6 @@ export const searchIndex = [
         "level": 2,
         "title": "数组的排序",
         "slug": "数组的排序",
-        "children": []
-      },
-      {
-        "level": 2,
-        "title": "ES5新增数组的方法",
-        "slug": "es5新增数组的方法",
-        "children": []
-      },
-      {
-        "level": 2,
-        "title": "函数的方法",
-        "slug": "函数的方法",
-        "children": []
-      },
-      {
-        "level": 2,
-        "title": "this",
-        "slug": "this",
-        "children": []
-      },
-      {
-        "level": 2,
-        "title": "JSON",
-        "slug": "json-1",
-        "children": []
-      },
-      {
-        "level": 2,
-        "title": "对象的概念",
-        "slug": "对象的概念",
-        "children": []
-      },
-      {
-        "level": 2,
-        "title": "对象的语法",
-        "slug": "对象的语法",
-        "children": []
-      },
-      {
-        "level": 2,
-        "title": "对象的创建",
-        "slug": "对象的创建",
-        "children": []
-      },
-      {
-        "level": 2,
-        "title": "对象的使用",
-        "slug": "对象的使用",
-        "children": []
-      },
-      {
-        "level": 2,
-        "title": "对象的组成和意义",
-        "slug": "对象的组成和意义",
-        "children": []
-      },
-      {
-        "level": 2,
-        "title": "关系",
-        "slug": "关系",
-        "children": []
-      },
-      {
-        "level": 2,
-        "title": "对象的分类",
-        "slug": "对象的分类",
-        "children": []
-      },
-      {
-        "level": 2,
-        "title": "this",
-        "slug": "this-1",
-        "children": []
-      },
-      {
-        "level": 2,
-        "title": "对象的操作",
-        "slug": "对象的操作",
-        "children": []
-      },
-      {
-        "level": 2,
-        "title": "内置对象",
-        "slug": "内置对象",
-        "children": []
-      },
-      {
-        "level": 2,
-        "title": "本地对象",
-        "slug": "本地对象",
         "children": []
       },
       {
@@ -1732,7 +1631,7 @@ export const searchIndex = [
       {
         "level": 2,
         "title": "概念",
-        "slug": "概念-1",
+        "slug": "概念",
         "children": []
       },
       {
@@ -1934,7 +1833,7 @@ export const searchIndex = [
       {
         "level": 2,
         "title": "函数",
-        "slug": "函数-1",
+        "slug": "函数",
         "children": []
       },
       {
@@ -2046,7 +1945,7 @@ export const searchIndex = [
       {
         "level": 2,
         "title": "概念",
-        "slug": "概念-2",
+        "slug": "概念-1",
         "children": []
       },
       {
@@ -2070,7 +1969,7 @@ export const searchIndex = [
       {
         "level": 2,
         "title": "概念",
-        "slug": "概念-3",
+        "slug": "概念-2",
         "children": []
       },
       {
@@ -2112,7 +2011,7 @@ export const searchIndex = [
       {
         "level": 2,
         "title": "关系",
-        "slug": "关系-1",
+        "slug": "关系",
         "children": []
       },
       {
@@ -2130,7 +2029,7 @@ export const searchIndex = [
       {
         "level": 2,
         "title": "概念",
-        "slug": "概念-4",
+        "slug": "概念-3",
         "children": []
       },
       {
@@ -2271,7 +2170,7 @@ export const searchIndex = [
       {
         "level": 2,
         "title": "js的执行机制",
-        "slug": "js的执行机制-1",
+        "slug": "js的执行机制",
         "children": [
           {
             "level": 3,
@@ -2393,7 +2292,7 @@ export const searchIndex = [
           {
             "level": 3,
             "title": "概念",
-            "slug": "概念-5",
+            "slug": "概念-4",
             "children": []
           },
           {
@@ -2774,6 +2673,57 @@ export const searchIndex = [
       }
     ],
     "path": "/doc/basics/js/",
+    "pathLocale": "/",
+    "extraFields": []
+  },
+  {
+    "title": "js基础",
+    "headers": [
+      {
+        "level": 2,
+        "title": "js的组成",
+        "slug": "js的组成",
+        "children": []
+      },
+      {
+        "level": 2,
+        "title": "js写在哪",
+        "slug": "js写在哪",
+        "children": []
+      },
+      {
+        "level": 2,
+        "title": "js写什么",
+        "slug": "js写什么",
+        "children": []
+      },
+      {
+        "level": 2,
+        "title": "数据的类型转换",
+        "slug": "数据的类型转换",
+        "children": []
+      },
+      {
+        "level": 2,
+        "title": "程序的结构",
+        "slug": "程序的结构",
+        "children": [
+          {
+            "level": 3,
+            "title": "选择（分支）结构",
+            "slug": "选择-分支-结构",
+            "children": []
+          },
+          {
+            "level": 3,
+            "title": "循环的语句",
+            "slug": "循环的语句",
+            "children": []
+          }
+        ]
+      }
+    ],
+    "path": "/doc/basics/js/js.html",
     "pathLocale": "/",
     "extraFields": []
   },

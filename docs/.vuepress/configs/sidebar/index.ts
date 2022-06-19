@@ -24,12 +24,16 @@ export const SideBar: SidebarConfig = {
         '/doc/basics/css/css3.md',
         '/doc/basics/css/animation.md',
         '/doc/basics/css/boxModel.md',
+        '/doc/basics/css/extend.md',
       ]
     },
     {
-      text: 'js',
+      text: 'JavaScript',
       collapsible: true,
       children: [
+        '/doc/basics/js/js.md',
+        '/doc/basics/js/core.md',
+        '/doc/basics/js/advanced.md',
       ]
     }
   ]

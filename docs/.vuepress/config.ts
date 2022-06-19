@@ -24,6 +24,7 @@ export default defineUserConfig({
     repo: 'https://github.com/RuningPenguin/note',
     editLink: false, // 是否启用 编辑此页 链接
     docsBranch: "gh-pages",
+    lastUpdated: false, // 是否显示最后更新时间
     navbar: NavBar,
     sidebar: SideBar, // 侧边栏
     // 404 page
