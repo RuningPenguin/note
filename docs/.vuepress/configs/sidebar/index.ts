@@ -34,6 +34,8 @@ export const SideBar: SidebarConfig = {
         '/doc/basics/js/js.md',
         '/doc/basics/js/core.md',
         '/doc/basics/js/advanced.md',
+        '/doc/basics/js/eventLoop.md',
+        '/doc/basics/js/extend.md',
       ]
     }
   ]

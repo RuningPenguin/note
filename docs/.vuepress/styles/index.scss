@@ -6,3 +6,12 @@
 html.dark {
   --index-bg: rgba(255, 255, 255, 0.3);
 }
+
+.footer {
+  margin-top: 100px;
+  .footer_wrap {
+    display: flex;
+    justify-content: center;
+    align-items: center;
+  }
+}

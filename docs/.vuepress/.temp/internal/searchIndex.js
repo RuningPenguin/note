@@ -213,6 +213,13 @@ export const searchIndex = [
     "extraFields": []
   },
   {
+    "title": "",
+    "headers": [],
+    "path": "/about/qie/",
+    "pathLocale": "/",
+    "extraFields": []
+  },
+  {
     "title": "学习路线",
     "headers": [],
     "path": "/about/index/",
@@ -222,7 +229,7 @@ export const searchIndex = [
   {
     "title": "",
     "headers": [],
-    "path": "/about/qie/",
+    "path": "/doc/jquery/",
     "pathLocale": "/",
     "extraFields": []
   },
@@ -230,13 +237,6 @@ export const searchIndex = [
     "title": "",
     "headers": [],
     "path": "/doc/git/",
-    "pathLocale": "/",
-    "extraFields": []
-  },
-  {
-    "title": "",
-    "headers": [],
-    "path": "/doc/jquery/",
     "pathLocale": "/",
     "extraFields": []
   },
@@ -264,7 +264,7 @@ export const searchIndex = [
   {
     "title": "",
     "headers": [],
-    "path": "/doc/uniapp/",
+    "path": "/doc/vue2/",
     "pathLocale": "/",
     "extraFields": []
   },
@@ -278,14 +278,14 @@ export const searchIndex = [
   {
     "title": "",
     "headers": [],
-    "path": "/doc/vue2/",
+    "path": "/doc/vue3/",
     "pathLocale": "/",
     "extraFields": []
   },
   {
     "title": "",
     "headers": [],
-    "path": "/doc/vue3/",
+    "path": "/doc/uniapp/",
     "pathLocale": "/",
     "extraFields": []
   },
@@ -300,6 +300,254 @@ export const searchIndex = [
     "title": "",
     "headers": [],
     "path": "/doc/weixin/",
+    "pathLocale": "/",
+    "extraFields": []
+  },
+  {
+    "title": "扩展",
+    "headers": [
+      {
+        "level": 3,
+        "title": "高级表格",
+        "slug": "高级表格",
+        "children": []
+      },
+      {
+        "level": 3,
+        "title": "音视频插入",
+        "slug": "音视频插入",
+        "children": []
+      }
+    ],
+    "path": "/doc/basics/html/extend.html",
+    "pathLocale": "/",
+    "extraFields": []
+  },
+  {
+    "title": "h5",
+    "headers": [
+      {
+        "level": 2,
+        "title": "语义化标签",
+        "slug": "语义化标签",
+        "children": []
+      },
+      {
+        "level": 2,
+        "title": "output",
+        "slug": "output",
+        "children": []
+      },
+      {
+        "level": 2,
+        "title": "新增表单类型(type)",
+        "slug": "新增表单类型-type",
+        "children": []
+      },
+      {
+        "level": 2,
+        "title": "验证的属性（标签）",
+        "slug": "验证的属性-标签",
+        "children": []
+      }
+    ],
+    "path": "/doc/basics/html/h5.html",
+    "pathLocale": "/",
+    "extraFields": []
+  },
+  {
+    "title": "HTML基础",
+    "headers": [
+      {
+        "level": 2,
+        "title": "介绍",
+        "slug": "介绍",
+        "children": []
+      },
+      {
+        "level": 2,
+        "title": "web的组成",
+        "slug": "web的组成",
+        "children": []
+      },
+      {
+        "level": 2,
+        "title": "项目的命名规范",
+        "slug": "项目的命名规范",
+        "children": []
+      },
+      {
+        "level": 2,
+        "title": "html基本语法",
+        "slug": "html基本语法",
+        "children": []
+      },
+      {
+        "level": 2,
+        "title": "标记分为两种",
+        "slug": "标记分为两种",
+        "children": []
+      },
+      {
+        "level": 2,
+        "title": "html的基本结构",
+        "slug": "html的基本结构",
+        "children": []
+      }
+    ],
+    "path": "/doc/basics/html/html.html",
+    "pathLocale": "/",
+    "extraFields": []
+  },
+  {
+    "title": "标签",
+    "headers": [
+      {
+        "level": 2,
+        "title": "标签总结",
+        "slug": "标签总结",
+        "children": []
+      },
+      {
+        "level": 2,
+        "title": "换行标签（块元素）",
+        "slug": "换行标签-块元素",
+        "children": []
+      },
+      {
+        "level": 2,
+        "title": "非换行标签（内联元素）",
+        "slug": "非换行标签-内联元素",
+        "children": []
+      },
+      {
+        "level": 2,
+        "title": "列表 (块元素)",
+        "slug": "列表-块元素",
+        "children": [
+          {
+            "level": 3,
+            "title": "有序列表",
+            "slug": "有序列表",
+            "children": []
+          },
+          {
+            "level": 3,
+            "title": "无序列表",
+            "slug": "无序列表",
+            "children": []
+          },
+          {
+            "level": 3,
+            "title": "自定义列表",
+            "slug": "自定义列表",
+            "children": []
+          }
+        ]
+      },
+      {
+        "level": 2,
+        "title": "超链接",
+        "slug": "超链接",
+        "children": [
+          {
+            "level": 3,
+            "title": "属性",
+            "slug": "属性",
+            "children": []
+          },
+          {
+            "level": 3,
+            "title": "路径",
+            "slug": "路径",
+            "children": []
+          },
+          {
+            "level": 3,
+            "title": "链接本地网页",
+            "slug": "链接本地网页",
+            "children": []
+          },
+          {
+            "level": 3,
+            "title": "下载功能",
+            "slug": "下载功能",
+            "children": []
+          }
+        ]
+      },
+      {
+        "level": 2,
+        "title": "图片",
+        "slug": "图片",
+        "children": [
+          {
+            "level": 3,
+            "title": "属性",
+            "slug": "属性-1",
+            "children": []
+          },
+          {
+            "level": 3,
+            "title": "网页常见图片",
+            "slug": "网页常见图片",
+            "children": []
+          }
+        ]
+      },
+      {
+        "level": 2,
+        "title": "表格",
+        "slug": "表格",
+        "children": [
+          {
+            "level": 3,
+            "title": "属性",
+            "slug": "属性-2",
+            "children": []
+          }
+        ]
+      },
+      {
+        "level": 2,
+        "title": "表单",
+        "slug": "表单",
+        "children": [
+          {
+            "level": 3,
+            "title": "属性",
+            "slug": "属性-3",
+            "children": []
+          }
+        ]
+      },
+      {
+        "level": 2,
+        "title": "表单控件",
+        "slug": "表单控件",
+        "children": [
+          {
+            "level": 3,
+            "title": "input",
+            "slug": "input",
+            "children": []
+          },
+          {
+            "level": 3,
+            "title": "下拉列表",
+            "slug": "下拉列表",
+            "children": []
+          },
+          {
+            "level": 3,
+            "title": "文本域（textarea）",
+            "slug": "文本域-textarea",
+            "children": []
+          }
+        ]
+      }
+    ],
+    "path": "/doc/basics/html/label.html",
     "pathLocale": "/",
     "extraFields": []
   },
@@ -1044,255 +1292,428 @@ export const searchIndex = [
     "extraFields": []
   },
   {
-    "title": "扩展",
-    "headers": [
-      {
-        "level": 3,
-        "title": "高级表格",
-        "slug": "高级表格",
-        "children": []
-      },
-      {
-        "level": 3,
-        "title": "音视频插入",
-        "slug": "音视频插入",
-        "children": []
-      }
-    ],
-    "path": "/doc/basics/html/extend.html",
-    "pathLocale": "/",
-    "extraFields": []
-  },
-  {
-    "title": "h5",
-    "headers": [
-      {
-        "level": 2,
-        "title": "语义化标签",
-        "slug": "语义化标签",
-        "children": []
-      },
-      {
-        "level": 2,
-        "title": "output",
-        "slug": "output",
-        "children": []
-      },
-      {
-        "level": 2,
-        "title": "新增表单类型(type)",
-        "slug": "新增表单类型-type",
-        "children": []
-      },
-      {
-        "level": 2,
-        "title": "验证的属性（标签）",
-        "slug": "验证的属性-标签",
-        "children": []
-      }
-    ],
-    "path": "/doc/basics/html/h5.html",
-    "pathLocale": "/",
-    "extraFields": []
-  },
-  {
-    "title": "HTML基础",
-    "headers": [
-      {
-        "level": 2,
-        "title": "介绍",
-        "slug": "介绍",
-        "children": []
-      },
-      {
-        "level": 2,
-        "title": "web的组成",
-        "slug": "web的组成",
-        "children": []
-      },
-      {
-        "level": 2,
-        "title": "项目的命名规范",
-        "slug": "项目的命名规范",
-        "children": []
-      },
-      {
-        "level": 2,
-        "title": "html基本语法",
-        "slug": "html基本语法",
-        "children": []
-      },
-      {
-        "level": 2,
-        "title": "标记分为两种",
-        "slug": "标记分为两种",
-        "children": []
-      },
-      {
-        "level": 2,
-        "title": "html的基本结构",
-        "slug": "html的基本结构",
-        "children": []
-      }
-    ],
-    "path": "/doc/basics/html/html.html",
-    "pathLocale": "/",
-    "extraFields": []
-  },
-  {
-    "title": "标签",
-    "headers": [
-      {
-        "level": 2,
-        "title": "标签总结",
-        "slug": "标签总结",
-        "children": []
-      },
-      {
-        "level": 2,
-        "title": "换行标签（块元素）",
-        "slug": "换行标签-块元素",
-        "children": []
-      },
-      {
-        "level": 2,
-        "title": "非换行标签（内联元素）",
-        "slug": "非换行标签-内联元素",
-        "children": []
-      },
-      {
-        "level": 2,
-        "title": "列表 (块元素)",
-        "slug": "列表-块元素",
-        "children": [
-          {
-            "level": 3,
-            "title": "有序列表",
-            "slug": "有序列表",
-            "children": []
-          },
-          {
-            "level": 3,
-            "title": "无序列表",
-            "slug": "无序列表",
-            "children": []
-          },
-          {
-            "level": 3,
-            "title": "自定义列表",
-            "slug": "自定义列表",
-            "children": []
-          }
-        ]
-      },
-      {
-        "level": 2,
-        "title": "超链接",
-        "slug": "超链接",
-        "children": [
-          {
-            "level": 3,
-            "title": "属性",
-            "slug": "属性",
-            "children": []
-          },
-          {
-            "level": 3,
-            "title": "路径",
-            "slug": "路径",
-            "children": []
-          },
-          {
-            "level": 3,
-            "title": "链接本地网页",
-            "slug": "链接本地网页",
-            "children": []
-          },
-          {
-            "level": 3,
-            "title": "下载功能",
-            "slug": "下载功能",
-            "children": []
-          }
-        ]
-      },
-      {
-        "level": 2,
-        "title": "图片",
-        "slug": "图片",
-        "children": [
-          {
-            "level": 3,
-            "title": "属性",
-            "slug": "属性-1",
-            "children": []
-          },
-          {
-            "level": 3,
-            "title": "网页常见图片",
-            "slug": "网页常见图片",
-            "children": []
-          }
-        ]
-      },
-      {
-        "level": 2,
-        "title": "表格",
-        "slug": "表格",
-        "children": [
-          {
-            "level": 3,
-            "title": "属性",
-            "slug": "属性-2",
-            "children": []
-          }
-        ]
-      },
-      {
-        "level": 2,
-        "title": "表单",
-        "slug": "表单",
-        "children": [
-          {
-            "level": 3,
-            "title": "属性",
-            "slug": "属性-3",
-            "children": []
-          }
-        ]
-      },
-      {
-        "level": 2,
-        "title": "表单控件",
-        "slug": "表单控件",
-        "children": [
-          {
-            "level": 3,
-            "title": "input",
-            "slug": "input",
-            "children": []
-          },
-          {
-            "level": 3,
-            "title": "下拉列表",
-            "slug": "下拉列表",
-            "children": []
-          },
-          {
-            "level": 3,
-            "title": "文本域（textarea）",
-            "slug": "文本域-textarea",
-            "children": []
-          }
-        ]
-      }
-    ],
-    "path": "/doc/basics/html/label.html",
-    "pathLocale": "/",
-    "extraFields": []
-  },
-  {
     "title": "js进阶",
+    "headers": [
+      {
+        "level": 2,
+        "title": "ES5",
+        "slug": "es5",
+        "children": [
+          {
+            "level": 3,
+            "title": "严格模式",
+            "slug": "严格模式",
+            "children": []
+          },
+          {
+            "level": 3,
+            "title": "数组的排序",
+            "slug": "数组的排序",
+            "children": []
+          },
+          {
+            "level": 3,
+            "title": "函数的封装思想",
+            "slug": "函数的封装思想",
+            "children": []
+          }
+        ]
+      },
+      {
+        "level": 2,
+        "title": "正则",
+        "slug": "正则",
+        "children": [
+          {
+            "level": 3,
+            "title": "创建正则",
+            "slug": "创建正则",
+            "children": []
+          },
+          {
+            "level": 3,
+            "title": "正则的使用",
+            "slug": "正则的使用",
+            "children": []
+          },
+          {
+            "level": 3,
+            "title": "正则的符号",
+            "slug": "正则的符号",
+            "children": []
+          }
+        ]
+      },
+      {
+        "level": 2,
+        "title": "ES6",
+        "slug": "es6",
+        "children": [
+          {
+            "level": 3,
+            "title": "声明变量的关键字",
+            "slug": "声明变量的关键字",
+            "children": []
+          },
+          {
+            "level": 3,
+            "title": "解构赋值",
+            "slug": "解构赋值",
+            "children": []
+          },
+          {
+            "level": 3,
+            "title": "字符的新增",
+            "slug": "字符的新增",
+            "children": []
+          },
+          {
+            "level": 3,
+            "title": "箭头函数",
+            "slug": "箭头函数",
+            "children": []
+          },
+          {
+            "level": 3,
+            "title": "展开运算符",
+            "slug": "展开运算符",
+            "children": []
+          },
+          {
+            "level": 3,
+            "title": "symbol类型",
+            "slug": "symbol类型",
+            "children": []
+          },
+          {
+            "level": 3,
+            "title": "set和map",
+            "slug": "set和map",
+            "children": []
+          }
+        ]
+      },
+      {
+        "level": 2,
+        "title": "面向对象",
+        "slug": "面向对象",
+        "children": [
+          {
+            "level": 3,
+            "title": "语法",
+            "slug": "语法",
+            "children": []
+          },
+          {
+            "level": 3,
+            "title": "new的原理",
+            "slug": "new的原理",
+            "children": []
+          },
+          {
+            "level": 3,
+            "title": "类",
+            "slug": "类",
+            "children": []
+          },
+          {
+            "level": 3,
+            "title": "原型",
+            "slug": "原型",
+            "children": []
+          },
+          {
+            "level": 3,
+            "title": "读写规则",
+            "slug": "读写规则",
+            "children": []
+          },
+          {
+            "level": 3,
+            "title": "常用语法",
+            "slug": "常用语法",
+            "children": []
+          }
+        ]
+      },
+      {
+        "level": 2,
+        "title": "class",
+        "slug": "class",
+        "children": []
+      },
+      {
+        "level": 2,
+        "title": "闭包",
+        "slug": "闭包",
+        "children": [
+          {
+            "level": 3,
+            "title": "概念",
+            "slug": "概念",
+            "children": []
+          },
+          {
+            "level": 3,
+            "title": "特点",
+            "slug": "特点",
+            "children": []
+          },
+          {
+            "level": 3,
+            "title": "原理",
+            "slug": "原理",
+            "children": []
+          },
+          {
+            "level": 3,
+            "title": "应用",
+            "slug": "应用",
+            "children": []
+          }
+        ]
+      },
+      {
+        "level": 2,
+        "title": "继承",
+        "slug": "继承",
+        "children": [
+          {
+            "level": 3,
+            "title": "概念",
+            "slug": "概念-1",
+            "children": []
+          },
+          {
+            "level": 3,
+            "title": "方式",
+            "slug": "方式",
+            "children": []
+          },
+          {
+            "level": 3,
+            "title": "原型/this相关",
+            "slug": "原型-this相关",
+            "children": []
+          },
+          {
+            "level": 3,
+            "title": "继承的方式",
+            "slug": "继承的方式",
+            "children": []
+          },
+          {
+            "level": 3,
+            "title": "继承的应用场景",
+            "slug": "继承的应用场景",
+            "children": []
+          }
+        ]
+      },
+      {
+        "level": 2,
+        "title": "原型",
+        "slug": "原型-1",
+        "children": [
+          {
+            "level": 3,
+            "title": "对象中的__proto__",
+            "slug": "对象中的-proto",
+            "children": []
+          },
+          {
+            "level": 3,
+            "title": "函数中的prototype",
+            "slug": "函数中的prototype",
+            "children": []
+          },
+          {
+            "level": 3,
+            "title": "关系",
+            "slug": "关系",
+            "children": []
+          },
+          {
+            "level": 3,
+            "title": "检查实例与构造函数的关系",
+            "slug": "检查实例与构造函数的关系",
+            "children": []
+          },
+          {
+            "level": 3,
+            "title": "js解析器访问属性顺序",
+            "slug": "js解析器访问属性顺序",
+            "children": []
+          }
+        ]
+      },
+      {
+        "level": 2,
+        "title": "js的执行机制",
+        "slug": "js的执行机制",
+        "children": []
+      },
+      {
+        "level": 2,
+        "title": "Ajax",
+        "slug": "ajax",
+        "children": [
+          {
+            "level": 3,
+            "title": "介绍",
+            "slug": "介绍",
+            "children": []
+          },
+          {
+            "level": 3,
+            "title": "ajax的使用",
+            "slug": "ajax的使用",
+            "children": []
+          },
+          {
+            "level": 3,
+            "title": "封装",
+            "slug": "封装",
+            "children": []
+          },
+          {
+            "level": 3,
+            "title": "get请求",
+            "slug": "get请求",
+            "children": []
+          },
+          {
+            "level": 3,
+            "title": "post 请求",
+            "slug": "post-请求",
+            "children": []
+          },
+          {
+            "level": 3,
+            "title": "ajax存在的问题",
+            "slug": "ajax存在的问题",
+            "children": []
+          },
+          {
+            "level": 3,
+            "title": "跨域的解决方法",
+            "slug": "跨域的解决方法",
+            "children": []
+          }
+        ]
+      },
+      {
+        "level": 2,
+        "title": "Promise",
+        "slug": "promise",
+        "children": [
+          {
+            "level": 3,
+            "title": "语法",
+            "slug": "语法-1",
+            "children": []
+          },
+          {
+            "level": 3,
+            "title": "promise的方法",
+            "slug": "promise的方法",
+            "children": []
+          }
+        ]
+      },
+      {
+        "level": 2,
+        "title": "本地存储",
+        "slug": "本地存储",
+        "children": [
+          {
+            "level": 3,
+            "title": "概念",
+            "slug": "概念-2",
+            "children": []
+          },
+          {
+            "level": 3,
+            "title": "cookie",
+            "slug": "cookie",
+            "children": []
+          },
+          {
+            "level": 3,
+            "title": "storage",
+            "slug": "storage",
+            "children": []
+          }
+        ]
+      },
+      {
+        "level": 2,
+        "title": "设计模式",
+        "slug": "设计模式",
+        "children": [
+          {
+            "level": 3,
+            "title": "常用设计模式",
+            "slug": "常用设计模式",
+            "children": []
+          },
+          {
+            "level": 3,
+            "title": "工厂模式",
+            "slug": "工厂模式",
+            "children": []
+          },
+          {
+            "level": 3,
+            "title": "单例模式",
+            "slug": "单例模式",
+            "children": []
+          },
+          {
+            "level": 3,
+            "title": "组合模式",
+            "slug": "组合模式",
+            "children": []
+          },
+          {
+            "level": 3,
+            "title": "适配器模式",
+            "slug": "适配器模式",
+            "children": []
+          },
+          {
+            "level": 3,
+            "title": "观察者模式",
+            "slug": "观察者模式",
+            "children": []
+          },
+          {
+            "level": 3,
+            "title": "代理模式",
+            "slug": "代理模式",
+            "children": []
+          },
+          {
+            "level": 3,
+            "title": "策略模式",
+            "slug": "策略模式",
+            "children": []
+          },
+          {
+            "level": 3,
+            "title": "MVC模式",
+            "slug": "mvc模式",
+            "children": []
+          }
+        ]
+      }
+    ],
+    "path": "/doc/basics/js/advanced.html",
+    "pathLocale": "/",
+    "extraFields": []
+  },
+  {
+    "title": "js核心",
     "headers": [
       {
         "level": 2,
@@ -1497,154 +1918,92 @@ export const searchIndex = [
         "title": "this",
         "slug": "this",
         "children": []
-      }
-    ],
-    "path": "/doc/basics/js/advanced.html",
-    "pathLocale": "/",
-    "extraFields": []
-  },
-  {
-    "title": "",
-    "headers": [],
-    "path": "/doc/basics/js/core.html",
-    "pathLocale": "/",
-    "extraFields": []
-  },
-  {
-    "title": "javascript",
-    "headers": [
-      {
-        "level": 2,
-        "title": "ES5：",
-        "slug": "es5",
-        "children": []
       },
       {
         "level": 2,
-        "title": "严格模式",
-        "slug": "严格模式",
-        "children": []
-      },
-      {
-        "level": 2,
-        "title": "如何开启",
-        "slug": "如何开启",
-        "children": []
-      },
-      {
-        "level": 2,
-        "title": "开启严格模式的变更",
-        "slug": "开启严格模式的变更",
-        "children": []
-      },
-      {
-        "level": 2,
-        "title": "数组的排序",
-        "slug": "数组的排序",
-        "children": []
-      },
-      {
-        "level": 2,
-        "title": "BOM的介绍",
-        "slug": "bom的介绍",
-        "children": []
-      },
-      {
-        "level": 2,
-        "title": "BOM和DOM和ECMAScript的关系",
-        "slug": "bom和dom和ecmascript的关系",
-        "children": []
-      },
-      {
-        "level": 2,
-        "title": "BOM-window",
-        "slug": "bom-window",
-        "children": []
-      },
-      {
-        "level": 2,
-        "title": "window的方法",
-        "slug": "window的方法",
-        "children": []
-      },
-      {
-        "level": 2,
-        "title": "window的事件",
-        "slug": "window的事件",
-        "children": []
-      },
-      {
-        "level": 2,
-        "title": "window的子对象",
-        "slug": "window的子对象",
+        "title": "BOM",
+        "slug": "bom",
         "children": [
           {
             "level": 3,
-            "title": "页面刷新的方法",
-            "slug": "页面刷新的方法",
+            "title": "BOM - window",
+            "slug": "bom-window",
+            "children": []
+          },
+          {
+            "level": 3,
+            "title": "window的方法",
+            "slug": "window的方法",
+            "children": []
+          },
+          {
+            "level": 3,
+            "title": "window的事件",
+            "slug": "window的事件",
+            "children": []
+          },
+          {
+            "level": 3,
+            "title": "window的子对象",
+            "slug": "window的子对象",
             "children": []
           }
         ]
       },
       {
         "level": 2,
-        "title": "介绍",
-        "slug": "介绍",
-        "children": []
-      },
-      {
-        "level": 2,
-        "title": "选择器",
-        "slug": "选择器",
-        "children": []
-      },
-      {
-        "level": 2,
-        "title": "节点的过滤",
-        "slug": "节点的过滤",
-        "children": []
-      },
-      {
-        "level": 2,
-        "title": "样式",
-        "slug": "样式",
-        "children": []
-      },
-      {
-        "level": 2,
-        "title": "DOM元素属性",
-        "slug": "dom元素属性",
-        "children": []
-      },
-      {
-        "level": 2,
-        "title": "元素的尺寸类属性",
-        "slug": "元素的尺寸类属性",
-        "children": []
-      },
-      {
-        "level": 2,
-        "title": "元素（标签）的操作",
-        "slug": "元素-标签-的操作",
-        "children": []
-      },
-      {
-        "level": 2,
-        "title": "概念",
-        "slug": "概念",
-        "children": []
-      },
-      {
-        "level": 2,
-        "title": "组成",
-        "slug": "组成",
-        "children": []
-      },
-      {
-        "level": 2,
-        "title": "事件类型的分类",
-        "slug": "事件类型的分类",
+        "title": "DOM",
+        "slug": "dom",
         "children": [
+          {
+            "level": 3,
+            "title": "选择器",
+            "slug": "选择器",
+            "children": []
+          },
+          {
+            "level": 3,
+            "title": "节点的过滤",
+            "slug": "节点的过滤",
+            "children": []
+          },
+          {
+            "level": 3,
+            "title": "样式",
+            "slug": "样式",
+            "children": []
+          },
+          {
+            "level": 3,
+            "title": "DOM元素属性",
+            "slug": "dom元素属性",
+            "children": []
+          },
+          {
+            "level": 3,
+            "title": "元素的尺寸类属性",
+            "slug": "元素的尺寸类属性",
+            "children": []
+          },
+          {
+            "level": 3,
+            "title": "元素（标签）的操作",
+            "slug": "元素-标签-的操作",
+            "children": []
+          }
+        ]
+      },
+      {
+        "level": 2,
+        "title": "事件",
+        "slug": "事件",
+        "children": [
+          {
+            "level": 3,
+            "title": "事件类型的分类",
+            "slug": "事件类型的分类",
+            "children": []
+          },
           {
             "level": 3,
             "title": "1. 鼠标类",
@@ -1730,14 +2089,14 @@ export const searchIndex = [
             "title": "事件冒泡",
             "slug": "事件冒泡",
             "children": []
+          },
+          {
+            "level": 3,
+            "title": "事件委托",
+            "slug": "事件委托",
+            "children": []
           }
         ]
-      },
-      {
-        "level": 2,
-        "title": "事件委托",
-        "slug": "事件委托",
-        "children": []
       },
       {
         "level": 2,
@@ -1760,336 +2119,73 @@ export const searchIndex = [
       },
       {
         "level": 2,
-        "title": "入口和出口的处理",
-        "slug": "入口和出口的处理",
-        "children": []
-      },
-      {
-        "level": 2,
-        "title": "介绍",
-        "slug": "介绍-1",
-        "children": []
-      },
-      {
-        "level": 2,
-        "title": "意义",
-        "slug": "意义",
-        "children": []
-      },
-      {
-        "level": 2,
-        "title": "创建正则",
-        "slug": "创建正则",
-        "children": []
-      },
-      {
-        "level": 2,
-        "title": "正则的使用",
-        "slug": "正则的使用",
-        "children": []
-      },
-      {
-        "level": 2,
-        "title": "正则的符号",
-        "slug": "正则的符号",
-        "children": []
-      },
-      {
-        "level": 2,
-        "title": "正则的读",
-        "slug": "正则的读",
-        "children": []
-      },
-      {
-        "level": 2,
-        "title": "补充",
-        "slug": "补充",
-        "children": []
-      },
-      {
-        "level": 2,
-        "title": "介绍",
-        "slug": "介绍-2",
-        "children": []
-      },
-      {
-        "level": 2,
-        "title": "声明变量的关键字",
-        "slug": "声明变量的关键字",
-        "children": []
-      },
-      {
-        "level": 2,
-        "title": "解构赋值",
-        "slug": "解构赋值",
-        "children": []
-      },
-      {
-        "level": 2,
-        "title": "字符的新增",
-        "slug": "字符的新增",
-        "children": []
-      },
-      {
-        "level": 2,
-        "title": "函数",
-        "slug": "函数",
-        "children": []
-      },
-      {
-        "level": 2,
-        "title": "展开运算符",
-        "slug": "展开运算符",
-        "children": []
-      },
-      {
-        "level": 2,
-        "title": "symbol类型",
-        "slug": "symbol类型",
-        "children": []
-      },
-      {
-        "level": 2,
-        "title": "数据的集合 set和map",
-        "slug": "数据的集合-set和map",
-        "children": []
-      },
-      {
-        "level": 2,
-        "title": "理论",
-        "slug": "理论",
-        "children": [
-          {
-            "level": 3,
-            "title": "什么是面向对象",
-            "slug": "什么是面向对象",
-            "children": []
-          },
-          {
-            "level": 3,
-            "title": "面向对象编程的特点",
-            "slug": "面向对象编程的特点",
-            "children": []
-          }
-        ]
-      },
-      {
-        "level": 2,
-        "title": "语法",
-        "slug": "语法",
-        "children": [
-          {
-            "level": 3,
-            "title": "面向对象的语法",
-            "slug": "面向对象的语法",
-            "children": []
-          }
-        ]
-      },
-      {
-        "level": 2,
-        "title": "new的原理",
-        "slug": "new的原理",
-        "children": [
-          {
-            "level": 3,
-            "title": "类",
-            "slug": "类",
-            "children": []
-          }
-        ]
-      },
-      {
-        "level": 2,
-        "title": "原型",
-        "slug": "原型",
-        "children": [
-          {
-            "level": 3,
-            "title": "prototype",
-            "slug": "prototype",
-            "children": []
-          },
-          {
-            "level": 3,
-            "title": "__proto__",
-            "slug": "proto",
-            "children": []
-          },
-          {
-            "level": 3,
-            "title": "constructor",
-            "slug": "constructor",
-            "children": []
-          },
-          {
-            "level": 3,
-            "title": "对象的属性或方法的读写规则",
-            "slug": "对象的属性或方法的读写规则",
-            "children": []
-          }
-        ]
-      },
-      {
-        "level": 2,
-        "title": "面向对象的常用语法之一",
-        "slug": "面向对象的常用语法之一",
-        "children": []
-      },
-      {
-        "level": 2,
-        "title": "class",
-        "slug": "class",
-        "children": []
-      },
-      {
-        "level": 2,
-        "title": "概念",
-        "slug": "概念-1",
-        "children": []
-      },
-      {
-        "level": 2,
-        "title": "特点",
-        "slug": "特点",
-        "children": []
-      },
-      {
-        "level": 2,
-        "title": "原理",
-        "slug": "原理",
-        "children": []
-      },
-      {
-        "level": 2,
-        "title": "应用",
-        "slug": "应用",
-        "children": []
-      },
-      {
-        "level": 2,
-        "title": "概念",
-        "slug": "概念-2",
-        "children": []
-      },
-      {
-        "level": 2,
-        "title": "方式",
-        "slug": "方式",
-        "children": []
-      },
-      {
-        "level": 2,
-        "title": "原型/this相关",
-        "slug": "原型-this相关",
-        "children": []
-      },
-      {
-        "level": 2,
-        "title": "继承的方式",
-        "slug": "继承的方式",
-        "children": []
-      },
-      {
-        "level": 2,
-        "title": "继承的应用场景",
-        "slug": "继承的应用场景",
-        "children": []
-      },
-      {
-        "level": 2,
-        "title": "对象中的__prot__",
-        "slug": "对象中的-prot",
-        "children": []
-      },
-      {
-        "level": 2,
-        "title": "函数中的protyoe",
-        "slug": "函数中的protyoe",
-        "children": []
-      },
-      {
-        "level": 2,
         "title": "关系",
         "slug": "关系",
         "children": []
-      },
+      }
+    ],
+    "path": "/doc/basics/js/core.html",
+    "pathLocale": "/",
+    "extraFields": []
+  },
+  {
+    "title": "事件循环(event loop)",
+    "headers": [
       {
         "level": 2,
-        "title": "检查实例与构造函数的关系",
-        "slug": "检查实例与构造函数的关系",
+        "title": "一、为什么JavaScript是单线程？",
+        "slug": "一、为什么javascript是单线程",
         "children": []
       },
       {
         "level": 2,
-        "title": "js解析器访问属性顺序",
-        "slug": "js解析器访问属性顺序",
+        "title": "二、任务队列",
+        "slug": "二、任务队列",
         "children": []
       },
       {
         "level": 2,
-        "title": "概念",
-        "slug": "概念-3",
+        "title": "三、事件和回调函数",
+        "slug": "三、事件和回调函数",
         "children": []
       },
       {
         "level": 2,
-        "title": "常用设计模式",
-        "slug": "常用设计模式",
+        "title": "四、Event Loop",
+        "slug": "四、event-loop",
         "children": []
       },
       {
         "level": 2,
-        "title": "工厂模式",
-        "slug": "工厂模式",
+        "title": "五、定时器",
+        "slug": "五、定时器",
         "children": []
       },
       {
         "level": 2,
-        "title": "单例模式",
-        "slug": "单例模式",
+        "title": "六、Node.js的Event Loop",
+        "slug": "六、node-js的event-loop",
         "children": []
-      },
+      }
+    ],
+    "path": "/doc/basics/js/eventLoop.html",
+    "pathLocale": "/",
+    "extraFields": []
+  },
+  {
+    "title": "扩展",
+    "headers": [],
+    "path": "/doc/basics/js/extend.html",
+    "pathLocale": "/",
+    "extraFields": []
+  },
+  {
+    "title": "javascript",
+    "headers": [
       {
         "level": 2,
-        "title": "组合模式",
-        "slug": "组合模式",
-        "children": []
-      },
-      {
-        "level": 2,
-        "title": "适配器模式",
-        "slug": "适配器模式",
-        "children": []
-      },
-      {
-        "level": 2,
-        "title": "观察者模式",
-        "slug": "观察者模式",
-        "children": []
-      },
-      {
-        "level": 2,
-        "title": "代理模式",
-        "slug": "代理模式",
-        "children": []
-      },
-      {
-        "level": 2,
-        "title": "策略模式",
-        "slug": "策略模式",
-        "children": []
-      },
-      {
-        "level": 2,
-        "title": "MVC模式",
-        "slug": "mvc模式",
-        "children": []
-      },
-      {
-        "level": 2,
-        "title": "前后端交互",
-        "slug": "前后端交互",
+        "title": "数据交互",
+        "slug": "数据交互",
         "children": [
           {
             "level": 3,
@@ -2105,7 +2201,7 @@ export const searchIndex = [
           },
           {
             "level": 3,
-            "title": "3. 服务器-",
+            "title": "3. 服务器",
             "slug": "_3-服务器",
             "children": []
           },
@@ -2119,12 +2215,6 @@ export const searchIndex = [
             "level": 3,
             "title": "5. 如何使用本地服务器",
             "slug": "_5-如何使用本地服务器",
-            "children": []
-          },
-          {
-            "level": 3,
-            "title": "6. 后端程序如何编写",
-            "slug": "_6-后端程序如何编写",
             "children": []
           }
         ]
@@ -2169,150 +2259,8 @@ export const searchIndex = [
       },
       {
         "level": 2,
-        "title": "js的执行机制",
-        "slug": "js的执行机制",
-        "children": [
-          {
-            "level": 3,
-            "title": "1. 同步和异步",
-            "slug": "_1-同步和异步",
-            "children": []
-          },
-          {
-            "level": 3,
-            "title": "2. 程序",
-            "slug": "_2-程序",
-            "children": []
-          },
-          {
-            "level": 3,
-            "title": "3. 进程",
-            "slug": "_3-进程",
-            "children": []
-          },
-          {
-            "level": 3,
-            "title": "4. 线程",
-            "slug": "_4-线程",
-            "children": []
-          },
-          {
-            "level": 3,
-            "title": "5. js的执行机制：单线程的异步执行程序",
-            "slug": "_5-js的执行机制-单线程的异步执行程序",
-            "children": []
-          }
-        ]
-      },
-      {
-        "level": 2,
-        "title": "Ajax",
-        "slug": "ajax",
-        "children": [
-          {
-            "level": 3,
-            "title": "1. 介绍",
-            "slug": "_1-介绍",
-            "children": []
-          },
-          {
-            "level": 3,
-            "title": "2. ajax的使用",
-            "slug": "_2-ajax的使用",
-            "children": []
-          },
-          {
-            "level": 3,
-            "title": "3. 封装",
-            "slug": "_3-封装",
-            "children": []
-          },
-          {
-            "level": 3,
-            "title": "4. get请求",
-            "slug": "_4-get请求",
-            "children": []
-          },
-          {
-            "level": 3,
-            "title": "5. post 请求",
-            "slug": "_5-post-请求",
-            "children": []
-          },
-          {
-            "level": 3,
-            "title": "6. ajax存在的问题",
-            "slug": "_6-ajax存在的问题",
-            "children": []
-          },
-          {
-            "level": 3,
-            "title": "7. 数据的来源 - API",
-            "slug": "_7-数据的来源-api",
-            "children": []
-          },
-          {
-            "level": 3,
-            "title": "8. 跨域的解决方法",
-            "slug": "_8-跨域的解决方法",
-            "children": []
-          }
-        ]
-      },
-      {
-        "level": 2,
-        "title": "Promise - 承诺",
-        "slug": "promise-承诺",
-        "children": [
-          {
-            "level": 3,
-            "title": "意义",
-            "slug": "意义-1",
-            "children": []
-          },
-          {
-            "level": 3,
-            "title": "语法",
-            "slug": "语法-1",
-            "children": []
-          },
-          {
-            "level": 3,
-            "title": "promise的方法",
-            "slug": "promise的方法",
-            "children": []
-          }
-        ]
-      },
-      {
-        "level": 2,
-        "title": "本地存储",
-        "slug": "本地存储",
-        "children": [
-          {
-            "level": 3,
-            "title": "概念",
-            "slug": "概念-4",
-            "children": []
-          },
-          {
-            "level": 3,
-            "title": "cookie",
-            "slug": "cookie",
-            "children": []
-          },
-          {
-            "level": 3,
-            "title": "storage",
-            "slug": "storage",
-            "children": []
-          }
-        ]
-      },
-      {
-        "level": 2,
         "title": "介绍",
-        "slug": "介绍-3",
+        "slug": "介绍",
         "children": []
       },
       {
@@ -2548,7 +2496,7 @@ export const searchIndex = [
       {
         "level": 2,
         "title": "介绍",
-        "slug": "介绍-4",
+        "slug": "介绍-1",
         "children": []
       },
       {
@@ -2590,7 +2538,7 @@ export const searchIndex = [
       {
         "level": 2,
         "title": "介绍",
-        "slug": "介绍-5",
+        "slug": "介绍-2",
         "children": []
       },
       {
@@ -2644,7 +2592,7 @@ export const searchIndex = [
       {
         "level": 2,
         "title": "介绍",
-        "slug": "介绍-6",
+        "slug": "介绍-3",
         "children": []
       },
       {

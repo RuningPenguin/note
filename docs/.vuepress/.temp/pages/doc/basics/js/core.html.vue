@@ -65,7 +65,9 @@
 <li>参数在后面的小括号中传递</li>
 </ul>
 </li>
-<li><a href="">箭头函数</a></li>
+<li>
+<RouterLink to="/doc/basics/js/advanced.md#箭头函数">箭头函数</RouterLink>
+</li>
 </ul>
 <h3 id="函数的参数" tabindex="-1"><a class="header-anchor" href="#函数的参数" aria-hidden="true">#</a> 函数的参数</h3>
 <ul>
@@ -155,7 +157,7 @@
 <li>
 <p>返回值可以返回所有数据</p>
 <ul>
-<li>当一个函数，返回了另一个函数时，在这个函数的嵌套中，就形成了<a href="">闭包</a></li>
+<li>当一个函数，返回了另一个函数时，在这个函数的嵌套中，就形成了<RouterLink to="/doc/basics/js/advanced.md#闭包">闭包</RouterLink></li>
 </ul>
 </li>
 <li>

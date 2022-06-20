@@ -6,7 +6,8 @@ heroImageDark: '/logo/企鹅-b.png'
 heroAlt: '图片'
 heroText: '企鹅的学习笔记'
 tagline: '记录你的高光时刻'
-footer : '该网站仅做本人学习记录'
+footer : '<div class="footer_wrap">该网站仅做本人学习记录</div>'
+footerHtml: true
 # features:
 #   - title: 简洁至上
 #     details: 以 Markdown 为中心的项目结构，以最少的配置帮助你专注于写作。

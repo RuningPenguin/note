@@ -1,6 +1,4 @@
-<template><div><h1 id="javascript" tabindex="-1"><a class="header-anchor" href="#javascript" aria-hidden="true">#</a> javascript</h1>
-<p>a: 尖头函数、闭包</p>
-<h1 id="jquery" tabindex="-1"><a class="header-anchor" href="#jquery" aria-hidden="true">#</a> JQuery</h1>
+<template><div><h1 id="jquery" tabindex="-1"><a class="header-anchor" href="#jquery" aria-hidden="true">#</a> JQuery</h1>
 <h2 id="介绍" tabindex="-1"><a class="header-anchor" href="#介绍" aria-hidden="true">#</a> 介绍</h2>
 <ul>
 <li><a href="https://jquery.com/" target="_blank" rel="noopener noreferrer">官网<ExternalLinkIcon/></a></li>

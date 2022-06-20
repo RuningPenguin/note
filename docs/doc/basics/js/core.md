@@ -43,7 +43,7 @@
 	- 自动执行
 	- 创建作用域
 	- 参数在后面的小括号中传递
-- <a href="">箭头函数</a>
+- <RouterLink to="/doc/basics/js/advanced.md#箭头函数">箭头函数</RouterLink>
 
 ### 函数的参数
 - 概念：函数的入口，负责数据的传递，影响函数内部功能的执行
@@ -96,7 +96,7 @@ for(var i=0;i<arguments.length;i++){
     - 返回到哪了：函数的执行位置
 
 5. 返回值可以返回所有数据
-    - 当一个函数，返回了另一个函数时，在这个函数的嵌套中，就形成了<a href="">闭包</a>
+    - 当一个函数，返回了另一个函数时，在这个函数的嵌套中，就形成了<RouterLink to="/doc/basics/js/advanced.md#闭包">闭包</RouterLink>
 
 6. 返回值的应用场景
     - 功能函数，没有必要返回值
