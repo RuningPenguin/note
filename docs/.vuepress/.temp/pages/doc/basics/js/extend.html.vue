@@ -13,7 +13,7 @@
 </ul>
 </li>
 </ul>
-<h3 id="_2-后端-服务器" tabindex="-1"><a class="header-anchor" href="#_2-后端-服务器" aria-hidden="true">#</a> 2. 后端 - 服务器</h3>
+<h3 id="_2-后端-服务器-php" tabindex="-1"><a class="header-anchor" href="#_2-后端-服务器-php" aria-hidden="true">#</a> 2. 后端 - 服务器(php)</h3>
 <ul>
 <li>发送
 <ul>
@@ -37,12 +37,6 @@
 </ul>
 <h3 id="_4-获取服务器" tabindex="-1"><a class="header-anchor" href="#_4-获取服务器" aria-hidden="true">#</a> 4. 获取服务器</h3>
 <ul>
-<li>买
-<ul>
-<li>真实服务器：成本高</li>
-<li>虚拟服务器：云服务器，组别人的服务器</li>
-</ul>
-</li>
 <li>模拟
 <ul>
 <li>电脑模拟虚拟服务器（本地服务器）
@@ -132,35 +126,37 @@
 </ul>
 <h3 id="_2-怎么写" tabindex="-1"><a class="header-anchor" href="#_2-怎么写" aria-hidden="true">#</a> 2. 怎么写</h3>
 <ul>
-<li>基础结构<div class="language-php ext-php line-numbers-mode"><pre v-pre class="language-php"><code>	<span class="token php language-php"><span class="token delimiter important">&lt;?php</span>
+<li>基础结构</li>
+</ul>
+<div class="language-php ext-php line-numbers-mode"><pre v-pre class="language-php"><code>	<span class="token php language-php"><span class="token delimiter important">&lt;?php</span>
 		<span class="token comment">#php代码</span>
 	<span class="token delimiter important">?></span></span>
-</code></pre><div class="line-numbers" aria-hidden="true"><div class="line-number"></div><div class="line-number"></div><div class="line-number"></div></div></div></li>
+</code></pre><div class="line-numbers" aria-hidden="true"><div class="line-number"></div><div class="line-number"></div><div class="line-number"></div></div></div><ul>
 <li>基础语法
 <ul>
 <li>php的大部分语法和js相同
 <ul>
-<li>if(true){}
-<ul>
-<li>if(false){}else{}</li>
-<li>switch(){}</li>
-<li>for(){}</li>
-<li>while(){}</li>
-<li>do{}while()</li>
-<li>function fn(){}</li>
-</ul>
-</li>
+<li><code v-pre>if(true){}</code></li>
+<li><code v-pre>if(false){}else{}</code></li>
+<li><code v-pre>switch(){}</code></li>
+<li><code v-pre>for(){}</code></li>
+<li><code v-pre>while(){}</code></li>
+<li><code v-pre>do{}while()</code></li>
+<li><code v-pre>function fn(){}</code></li>
 </ul>
 </li>
 <li>php的变量
 <ul>
 <li><code v-pre>$</code>
 <ul>
-<li>php没有打印语句，只有发送</li>
-<li>echo $a;</li>
-<li>print $a;</li>
-<li>print_r($a); - 将复杂数据转成字符后发送</li>
-<li>die($a) - 发送数据后会终止程序执行</li>
+<li>php没有打印语句，只有发送
+<ul>
+<li><code v-pre>echo $a;</code></li>
+<li><code v-pre>print $a;</code></li>
+<li><code v-pre>print_r($a);</code> - 将复杂数据转成字符后发送</li>
+</ul>
+</li>
+<li><code v-pre>die($a)</code> - 发送数据后会终止程序执行</li>
 </ul>
 </li>
 <li>思想
@@ -175,7 +171,7 @@
 <li>对象，数组，函数，资源型（数据库）</li>
 <li>检测数据类型
 <ul>
-<li>var_dump($a);</li>
+<li><code v-pre>var_dump($a);</code></li>
 </ul>
 </li>
 </ul>
@@ -183,7 +179,7 @@
 <li><strong>语句结束必须加分号，除非最后一行</strong></li>
 <li>字符串
 <ul>
-<li>$a = &quot;hello&quot;;</li>
+<li><code v-pre>$a = &quot;hello&quot;;</code></li>
 <li>支持换行写</li>
 <li>连接符<code v-pre>.</code></li>
 </ul>
@@ -191,7 +187,7 @@
 <li>注释
 <ul>
 <li><code v-pre>#</code></li>
-<li>//</li>
+<li><code v-pre>//</code></li>
 </ul>
 </li>
 <li>数组
@@ -199,33 +195,32 @@
 <li><strong>没有点语法，只有中括号语法</strong></li>
 <li>索引数组
 <ul>
-<li>$arr = array(1,2,3,4,5);</li>
-<li>长度的方法：count($arr)</li>
-<li>转json的方法：json_encode($arr)</li>
-<li>数组的遍历：foreach($arr as $a=&gt;$b)</li>
+<li><code v-pre>$arr = array(1,2,3,4,5);</code></li>
+<li>长度的方法：<code v-pre>count($arr)</code></li>
+<li>转json的方法：<code v-pre>json_encode($arr)</code></li>
+<li>数组的遍历：<code v-pre>foreach($arr as $a=&gt;$b)</code></li>
 <li>数组排序：
 <ul>
-<li>sort() 升序</li>
-<li>rsort() 降序</li>
+<li><code v-pre>sort() 升序</code></li>
+<li><code v-pre>rsort() 降序</code></li>
 </ul>
 </li>
 </ul>
 </li>
 <li>关联数组
 <ul>
-<li>$arr = array(&quot;name&quot;=&gt;&quot;admin&quot;,&quot;age&quot;=&gt;18,&quot;arr&quot;=&gt;$arr1,&quot;o&quot;=&gt;$arr2);</li>
+<li><code v-pre>$arr = array(&quot;name&quot;=&gt;&quot;admin&quot;,&quot;age&quot;=&gt;18,&quot;arr&quot;=&gt;$arr1,&quot;o&quot;=&gt;$arr2);</code></li>
 </ul>
 </li>
 </ul>
 </li>
-<li>实例和类
-<ul>
-<li>class obj{
-var $name = &quot;admin&quot;;
-function(){
-echo $this-&gt;name;
-}
-}</li>
+<li>实例和类<div class="language-php ext-php line-numbers-mode"><pre v-pre class="language-php"><code><span class="token keyword">class</span> <span class="token class-name-definition class-name">obj</span><span class="token punctuation">{</span>
+	<span class="token keyword">var</span> <span class="token variable">$name</span> <span class="token operator">=</span> <span class="token string double-quoted-string">"admin"</span><span class="token punctuation">;</span>
+	<span class="token keyword">function</span><span class="token punctuation">(</span><span class="token punctuation">)</span><span class="token punctuation">{</span>
+	<span class="token keyword">echo</span> <span class="token variable">$this</span><span class="token operator">-></span><span class="token property">name</span><span class="token punctuation">;</span>
+	<span class="token punctuation">}</span>
+<span class="token punctuation">}</span>
+</code></pre><div class="line-numbers" aria-hidden="true"><div class="line-number"></div><div class="line-number"></div><div class="line-number"></div><div class="line-number"></div><div class="line-number"></div><div class="line-number"></div></div></div><ul>
 <li>var 声明属性的关键字</li>
 <li>-&gt;等同于js的.</li>
 </ul>
@@ -263,35 +258,29 @@ echo $this-&gt;name;
 <ul>
 <li>建立连接（2种方法）
 <ul>
-<li>mysqli_connect(&quot;localhost:3306&quot;,&quot;root&quot;,&quot;root&quot;,&quot;sh2009&quot;);</li>
+<li><code v-pre>mysqli_connect(&quot;localhost:3306&quot;,&quot;root&quot;,&quot;root&quot;,&quot;sh2009&quot;);</code></li>
 <li>参数（数据库的地址和端口，用户名，密码，要选择的数据库）</li>
-<li>new mysqli(&quot;localhost:3306&quot;,&quot;root&quot;,&quot;root&quot;,&quot;sh2009&quot;)；</li>
+<li><code v-pre>new mysqli(&quot;localhost:3306&quot;,&quot;root&quot;,&quot;root&quot;,&quot;sh2009&quot;);</code></li>
 </ul>
 </li>
 <li>选择数据库</li>
 <li>数据的操作
 <ul>
 <li>配合mysql命令，实现数据的增删改查（字符形式）</li>
-<li>增：&quot;INSERT stu (userName,age) VALUES('root',19)&quot;</li>
-<li>删：&quot;DELETE FROM stu WHERE Id&gt;20&quot;</li>
-<li>改：&quot;UPDATE stu SET age=age+1&quot;</li>
-<li>查：&quot;SELECT * FROM stu&quot;;</li>
-<li>查询：mysqli_query(选中的数据库，插入的数据)</li>
+<li>增：<code v-pre>&quot;INSERT stu (userName,age) VALUES('root',19)&quot;</code></li>
+<li>删：<code v-pre>&quot;DELETE FROM stu WHERE Id&gt;20&quot;</code></li>
+<li>改：<code v-pre>&quot;UPDATE stu SET age=age+1&quot;</code></li>
+<li>查：<code v-pre>&quot;SELECT * FROM stu&quot;;</code></li>
+<li>查询：<code v-pre>mysqli_query(选中的数据库，插入的数据)</code></li>
 </ul>
 </li>
 <li>查看数据方法
 <ul>
-<li>索引数组+关联数组查看数据：$res-&gt;fetch_array()
-<ul>
-<li>索引数组查看数据：$res-&gt;fetch_row();
-<ul>
-<li>关联数组查看数据：$res-&gt;fetch_assoc();        √</li>
-<li>对象方式查看数据：$res-&gt;fetch_object();</li>
+<li>索引数组+关联数组查看数据：<code v-pre>$res-&gt;fetch_array()</code></li>
+<li>索引数组查看数据：<code v-pre>$res-&gt;fetch_row();</code></li>
+<li>关联数组查看数据：<code v-pre>$res-&gt;fetch_assoc(); </code>       √</li>
+<li>对象方式查看数据：<code v-pre>$res-&gt;fetch_object();</code></li>
 <li>以上四种方式每次执行返回一条记录的数据，可配合循环多次执行，查询所有数据</li>
-</ul>
-</li>
-</ul>
-</li>
 </ul>
 </li>
 </ul>

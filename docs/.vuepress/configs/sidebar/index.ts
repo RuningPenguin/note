@@ -38,6 +38,33 @@ export const SideBar: SidebarConfig = {
         '/doc/basics/js/extend.md',
       ]
     }
+  ],
+  '/doc/necessary/': [
+    {
+      text: 'Jquery',
+      collapsible: true,
+      children: [
+        '/doc/necessary/jquery/jq.md',
+        '/doc/necessary/jquery/extend.md',
+      ]
+    },
+    {
+      text: 'Node.js',
+      collapsible: true,
+      children: [
+        '/doc/necessary/node/node.md',
+      ]
+    }
+  ],
+  '/doc/frame/': [],
+  '/doc/advanced/': [
+    {
+      text: 'Gulp',
+      collapsible: true,
+      children: [
+        '/doc/advanced/gulp/gulp.md',
+      ]
+    }
   ]
 
 }

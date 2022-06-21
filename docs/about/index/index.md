@@ -18,24 +18,24 @@ description: 页面的描述
 <div class="module">
   <h4>必备知识</h4>
   <div class="item_wrap">
-    <RouterLink class="RouterLink" to="/doc/jquery/">jquery</RouterLink>
-    <RouterLink class="RouterLink" to="/doc/node/">node</RouterLink>
+    <RouterLink class="RouterLink" to="/doc/necessary/jquery/jq/">jquery</RouterLink>
+    <RouterLink class="RouterLink" to="/doc/necessary/node/node/">node</RouterLink>
   </div>
 </div>
 
 <div class="module">
   <h4>前端框架</h4>
   <div class="item_wrap">
-    <RouterLink class="RouterLink" to="/doc/vue2/">vue2</RouterLink>
-    <RouterLink class="RouterLink" to="/doc/vue3/">vue3</RouterLink>
-    <RouterLink class="RouterLink" to="/doc/react/">react</RouterLink>
+    <RouterLink class="RouterLink" to="/doc/frame/vue2/">vue2</RouterLink>
+    <RouterLink class="RouterLink" to="/doc/frame/vue3/">vue3</RouterLink>
+    <RouterLink class="RouterLink" to="/doc/frame/react/">react</RouterLink>
   </div>
 </div>
 
 <div class="new_module">
   <h4>进阶之路</h4>
   <div class="item_wrap">
-    <RouterLink class="RouterLink" to="/doc/weixin/">gulp</RouterLink>
+    <RouterLink class="RouterLink" to="/doc/advanced/gulp/gulp/">gulp</RouterLink>
     <RouterLink class="RouterLink" to="/doc/weixin/">sass</RouterLink>
     <RouterLink class="RouterLink" to="/doc/uniapp/">uniapp</RouterLink>
     <RouterLink class="RouterLink" to="/doc/typescript/">typescript</RouterLink>

@@ -7,7 +7,8 @@
 	- 表单发送
 - 接收
 	- 浏览器默认接受
-### 2. 后端 - 服务器
+
+### 2. 后端 - 服务器(php)
 - 发送
 	- echo		  echo的速度快于print ，echo没有返回值
 	- print		     print有返回值，且返回值总为1
@@ -17,12 +18,11 @@
 	- $_GET		  接收get发送的表单
 	- $_POST	  接收post发送的表单
 	- $_REQUEST     接收get和post发送的表单
+
 ### 3. 服务器
 - 提供服务的机器，也是一台计算机，超级计算机，给众多用户提供的服务能力。专门的网络、专用的机器、专人维护、永不宕机。
+
 ### 4. 获取服务器
-- 买
-    - 真实服务器：成本高
-    - 虚拟服务器：云服务器，组别人的服务器
 - 模拟
 	- 电脑模拟虚拟服务器（本地服务器）
 		- 工具，单独的工具
@@ -35,6 +35,7 @@
 	- 放在服务器的根目录
 		- phpStudy的是www文件夹
 		- 常见的根目录名字：www、web、webroot、wwwroot
+
 ### 5. 如何使用本地服务器
 - 安装集成工具
 - 启动对应的服务
@@ -55,8 +56,6 @@
 		- **在服务器环境下不要出现中文路径**
 
 
-
-
 ## PHP
 ### 1. php 写在哪
 - 后端语言（服务器语言）
@@ -64,29 +63,31 @@
 	- 将文件放在服务器的根目录中
 - 创建一个php文件
 	- 后缀名：.php
+
 ### 2. 怎么写
 - 基础结构
-	```php
-		<?php
-			#php代码
-		?>
-	```
+```php
+	<?php
+		#php代码
+	?>
+```
+
 - 基础语法
 	- php的大部分语法和js相同
-        - if(true){}
-            - if(false){}else{}
-            - switch(){}
-            - for(){}
-            - while(){}
-            - do{}while()
-            - function fn(){}
+		- `if(true){}`
+		- `if(false){}else{}`
+		- `switch(){}`
+		- `for(){}`
+		- `while(){}`
+		- `do{}while()`
+		- `function fn(){}`
 	- php的变量
 		- `$`
-        	- php没有打印语句，只有发送
-            - echo $a;
-            - print $a;
-            - print_r($a); - 将复杂数据转成字符后发送
-			- die($a) - 发送数据后会终止程序执行
+			- php没有打印语句，只有发送
+				- `echo $a;`
+				- `print $a;`
+				- `print_r($a);` - 将复杂数据转成字符后发送
+			- `die($a)` - 发送数据后会终止程序执行
 		- 思想
 			- php文件只能被服务器解析，解析之后，将数据发送到前端，前端如果没有主动接收，浏览器默认接收，也就是直接将发送到前端的数据，显示在浏览器
 			- 如果发送了html标签，可以直接被浏览器解析
@@ -94,34 +95,36 @@
 			- 字符，整形，浮点型，布尔，NULL
 			- 对象，数组，函数，资源型（数据库）
 			- 检测数据类型
-				- var_dump($a);
+				- `var_dump($a);`
 		- **语句结束必须加分号，除非最后一行**
 		- 字符串
-			- $a = "hello";
+			- `$a = "hello";`
 			- 支持换行写
 			- 连接符`.`
 		- 注释
 			- `#`
-			- //
+			- `//`
 		- 数组
 			- **没有点语法，只有中括号语法**
 			- 索引数组
-				- $arr = array(1,2,3,4,5);
-				- 长度的方法：count($arr)
-				- 转json的方法：json_encode($arr)
-				- 数组的遍历：foreach($arr as $a=>$b)
+				- `$arr = array(1,2,3,4,5);`
+				- 长度的方法：`count($arr)`
+				- 转json的方法：`json_encode($arr)`
+				- 数组的遍历：`foreach($arr as $a=>$b)`
 				- 数组排序：
-					- sort() 升序
-					- rsort() 降序
+					- `sort() 升序`
+					- `rsort() 降序`
 			- 关联数组
-				- $arr = array("name"=>"admin","age"=>18,"arr"=>$arr1,"o"=>$arr2);
+				- `$arr = array("name"=>"admin","age"=>18,"arr"=>$arr1,"o"=>$arr2);`
 		- 实例和类
-			- class obj{
+			```php
+			class obj{
 				var $name = "admin";
 				function(){
 				echo $this->name;
 				}
 			}
+			```
 			- var 声明属性的关键字
 			- ->等同于js的.
 		- 作用域
@@ -143,25 +146,26 @@
 - 操作数据表：创建数据表
 	- 创建字段，设置数据类型
 - 操作数据：插入数据，删除数据，更新数据，查询数据
+
 ### 2. 使用编程语言操作数据库 - **php**
 - 建立连接（2种方法）
-	- mysqli_connect("localhost:3306","root","root","sh2009");
+	- `mysqli_connect("localhost:3306","root","root","sh2009");`
 	- 参数（数据库的地址和端口，用户名，密码，要选择的数据库）
-	- new mysqli("localhost:3306","root","root","sh2009")；
+	- `new mysqli("localhost:3306","root","root","sh2009");`
 - 选择数据库
 - 数据的操作
 	- 配合mysql命令，实现数据的增删改查（字符形式）
-	- 增："INSERT stu (userName,age) VALUES('root',19)"
-	- 删："DELETE FROM stu WHERE Id>20"
-	- 改："UPDATE stu SET age=age+1"
-	- 查："SELECT * FROM stu";
-	- 查询：mysqli_query(选中的数据库，插入的数据)
+	- 增：`"INSERT stu (userName,age) VALUES('root',19)"`
+	- 删：`"DELETE FROM stu WHERE Id>20"`
+	- 改：`"UPDATE stu SET age=age+1"`
+	- 查：`"SELECT * FROM stu";`
+	- 查询：`mysqli_query(选中的数据库，插入的数据)`
 - 查看数据方法
-	- 索引数组+关联数组查看数据：$res->fetch_array()
-        - 索引数组查看数据：$res->fetch_row();
-            - 关联数组查看数据：$res->fetch_assoc();        √
-            - 对象方式查看数据：$res->fetch_object();
-            - 以上四种方式每次执行返回一条记录的数据，可配合循环多次执行，查询所有数据
+	- 索引数组+关联数组查看数据：`$res->fetch_array()`
+	- 索引数组查看数据：`$res->fetch_row();`
+	- 关联数组查看数据：`$res->fetch_assoc(); `       √
+	- 对象方式查看数据：`$res->fetch_object();`
+	- 以上四种方式每次执行返回一条记录的数据，可配合循环多次执行，查询所有数据
 
 
 
