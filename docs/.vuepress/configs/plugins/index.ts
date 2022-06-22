@@ -3,7 +3,8 @@ import { docsearchPlugin } from '@vuepress/plugin-docsearch';
 export const Plugins = [
   docsearchPlugin({
     appId: '0RO9XLJ8K8',
-    apiKey: 'e83c2e6dcee439797143403cc2df38f3',
+    // apiKey: 'e83c2e6dcee439797143403cc2df38f3',
+    apiKey: '33a999dda3e82d50eb838e29efde4fc4',
     indexName: 'runingpenguinio',
     placeholder: '搜索文档',
     translations: {
