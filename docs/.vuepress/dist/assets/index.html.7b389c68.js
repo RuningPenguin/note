@@ -1,1 +1,0 @@
-const e=JSON.parse('{"key":"v-6cc33d90","path":"/doc/advanced/weixin/","title":"","lang":"zh-CN","frontmatter":{},"excerpt":"","headers":[],"git":{"contributors":[{"name":"wangxu","email":"codeqie@163.com","commits":1}]},"filePathRelative":"doc/advanced/weixin/index.md"}');export{e as data};

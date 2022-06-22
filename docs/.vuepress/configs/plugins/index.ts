@@ -1,11 +1,10 @@
-const { docsearchPlugin } = require('@vuepress/plugin-docsearch')
+import { docsearchPlugin } from '@vuepress/plugin-docsearch';
 
 export const Plugins = [
   docsearchPlugin({
     appId: '0RO9XLJ8K8',
     apiKey: 'e83c2e6dcee439797143403cc2df38f3',
     indexName: 'runingpenguinio',
-    initialQuery: 'jquery',
     placeholder: '搜索文档',
     translations: {
       button: {

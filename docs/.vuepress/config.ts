@@ -1,13 +1,6 @@
 import { defineUserConfig } from 'vuepress';
-import { viteBundler } from '@vuepress/bundler-vite'
-import { docsearchPlugin } from '@vuepress/plugin-docsearch'
 import { defaultTheme } from '@vuepress/theme-default'
-import { path } from '@vuepress/utils'
 import { Head, NavBar, SideBar, Plugins } from './configs'
-// import { webpackBundler } from '@vuepress/bundler-webpack'
-// import { googleAnalyticsPlugin } from '@vuepress/plugin-google-analytics'
-// import { registerComponentsPlugin } from '@vuepress/plugin-register-components'
-// import { shikiPlugin } from '@vuepress/plugin-shiki'
 
 export default defineUserConfig({
   base: "/note/", // 目录前缀
@@ -40,7 +33,6 @@ export default defineUserConfig({
     toggleColorMode: '切换颜色模式',
     toggleSidebar: '切换侧边栏',
   }),
-  // plugins: Plugins, // 插件
   plugins: Plugins, // 插件
 
 })

@@ -1,1 +1,14 @@
 export const data = JSON.parse("{\"key\":\"v-36c661ba\",\"path\":\"/doc/basics/css/attribute.html\",\"title\":\"常用属性\",\"lang\":\"zh-CN\",\"frontmatter\":{},\"excerpt\":\"\",\"headers\":[{\"level\":2,\"title\":\"水平对齐（只对块元素起作用）\",\"slug\":\"水平对齐-只对块元素起作用\",\"children\":[]},{\"level\":2,\"title\":\"行高\",\"slug\":\"行高\",\"children\":[]},{\"level\":2,\"title\":\"线条修饰\",\"slug\":\"线条修饰\",\"children\":[]},{\"level\":2,\"title\":\"首行缩进\",\"slug\":\"首行缩进\",\"children\":[]},{\"level\":2,\"title\":\"字间距\",\"slug\":\"字间距\",\"children\":[]},{\"level\":2,\"title\":\"边框\",\"slug\":\"边框\",\"children\":[{\"level\":3,\"title\":\"取消边框\",\"slug\":\"取消边框\",\"children\":[]},{\"level\":3,\"title\":\"边框粗细\",\"slug\":\"边框粗细\",\"children\":[]},{\"level\":3,\"title\":\"边框样式\",\"slug\":\"边框样式\",\"children\":[]},{\"level\":3,\"title\":\"边框颜色\",\"slug\":\"边框颜色\",\"children\":[]}]},{\"level\":2,\"title\":\"背景\",\"slug\":\"背景\",\"children\":[{\"level\":3,\"title\":\"复合属性\",\"slug\":\"复合属性\",\"children\":[]}]},{\"level\":2,\"title\":\"文本溢出\",\"slug\":\"文本溢出\",\"children\":[{\"level\":3,\"title\":\"设置单行文本溢出\",\"slug\":\"设置单行文本溢出\",\"children\":[]},{\"level\":3,\"title\":\"设置多行文本溢出隐藏\",\"slug\":\"设置多行文本溢出隐藏\",\"children\":[]}]},{\"level\":2,\"title\":\"元素类型\",\"slug\":\"元素类型\",\"children\":[{\"level\":3,\"title\":\"块元素\",\"slug\":\"块元素\",\"children\":[]},{\"level\":3,\"title\":\"内联元素\",\"slug\":\"内联元素\",\"children\":[]},{\"level\":3,\"title\":\"行内块元素\",\"slug\":\"行内块元素\",\"children\":[]},{\"level\":3,\"title\":\"元素类型的转换\",\"slug\":\"元素类型的转换\",\"children\":[]}]},{\"level\":2,\"title\":\"浮动\",\"slug\":\"浮动\",\"children\":[{\"level\":3,\"title\":\"元素类型受浮动的影响\",\"slug\":\"元素类型受浮动的影响\",\"children\":[]}]},{\"level\":2,\"title\":\"定位\",\"slug\":\"定位\",\"children\":[]},{\"level\":2,\"title\":\"宽高自适应\",\"slug\":\"宽高自适应\",\"children\":[{\"level\":3,\"title\":\"宽度自适应\",\"slug\":\"宽度自适应\",\"children\":[]},{\"level\":3,\"title\":\"高度自适应\",\"slug\":\"高度自适应\",\"children\":[]}]},{\"level\":2,\"title\":\"内容垂直居中\",\"slug\":\"内容垂直居中\",\"children\":[{\"level\":3,\"title\":\"方法一\",\"slug\":\"方法一\",\"children\":[]},{\"level\":3,\"title\":\"方法二\",\"slug\":\"方法二\",\"children\":[]}]},{\"level\":2,\"title\":\"高度塌陷\",\"slug\":\"高度塌陷\",\"children\":[]},{\"level\":2,\"title\":\"BFC\",\"slug\":\"bfc\",\"children\":[{\"level\":3,\"title\":\"布局规则\",\"slug\":\"布局规则\",\"children\":[]},{\"level\":3,\"title\":\"触发条件\",\"slug\":\"触发条件\",\"children\":[]},{\"level\":3,\"title\":\"BFC解决的问题\",\"slug\":\"bfc解决的问题\",\"children\":[]}]}],\"git\":{\"contributors\":[{\"name\":\"wangxu\",\"email\":\"codeqie@163.com\",\"commits\":1}]},\"filePathRelative\":\"doc/basics/css/attribute.md\"}")
+
+if (import.meta.webpackHot) {
+  import.meta.webpackHot.accept()
+  if (__VUE_HMR_RUNTIME__.updatePageData) {
+    __VUE_HMR_RUNTIME__.updatePageData(data)
+  }
+}
+
+if (import.meta.hot) {
+  import.meta.hot.accept(({ data }) => {
+    __VUE_HMR_RUNTIME__.updatePageData(data)
+  })
+}

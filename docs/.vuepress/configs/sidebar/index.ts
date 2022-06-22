@@ -63,6 +63,13 @@ export const SideBar: SidebarConfig = {
       children: [
         '/doc/frame/vue2/vue.md',
       ]
+    },
+    {
+      text: 'VUE(3.X)',
+      collapsible: true,
+      children: [
+        '/doc/frame/vue3/vue.md',
+      ]
     }
   ],
   '/doc/advanced/': [
@@ -71,6 +78,12 @@ export const SideBar: SidebarConfig = {
       collapsible: true,
       children: [
         '/doc/advanced/gulp/gulp.md',
+      ]
+    }, {
+      text: 'Canvas',
+      collapsible: true,
+      children: [
+        '/doc/advanced/canvas/canvas.md',
       ]
     }
   ]
