@@ -5,7 +5,7 @@ import clientConfig3 from '/Users/qie/Desktop/project/vuepress/node_modules/@vue
 import clientConfig4 from '/Users/qie/Desktop/project/vuepress/node_modules/@vuepress/plugin-nprogress/lib/client/config.js'
 import clientConfig5 from '/Users/qie/Desktop/project/vuepress/node_modules/@vuepress/plugin-theme-data/lib/client/config.js'
 import clientConfig6 from '/Users/qie/Desktop/project/vuepress/node_modules/@vuepress/theme-default/lib/client/config.js'
-import clientConfig7 from '/Users/qie/Desktop/project/vuepress/node_modules/@vuepress/plugin-search/lib/client/config.js'
+import clientConfig7 from '/Users/qie/Desktop/project/vuepress/node_modules/@vuepress/plugin-docsearch/lib/client/config.js'
 
 export const clientConfigs = [
   clientConfig0,

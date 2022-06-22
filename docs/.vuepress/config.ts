@@ -40,5 +40,7 @@ export default defineUserConfig({
     toggleColorMode: '切换颜色模式',
     toggleSidebar: '切换侧边栏',
   }),
+  // plugins: Plugins, // 插件
   plugins: Plugins, // 插件
+
 })

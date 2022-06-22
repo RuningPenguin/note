@@ -227,6 +227,98 @@ export const searchIndex = [
     "extraFields": []
   },
   {
+    "title": "",
+    "headers": [],
+    "path": "/doc/advanced/git/",
+    "pathLocale": "/",
+    "extraFields": []
+  },
+  {
+    "title": "gulp",
+    "headers": [
+      {
+        "level": 2,
+        "title": "介绍",
+        "slug": "介绍",
+        "children": []
+      },
+      {
+        "level": 2,
+        "title": "gulp的使用",
+        "slug": "gulp的使用",
+        "children": []
+      },
+      {
+        "level": 2,
+        "title": "gulp的常用内置方法",
+        "slug": "gulp的常用内置方法",
+        "children": []
+      },
+      {
+        "level": 2,
+        "title": "文件路径的写法",
+        "slug": "文件路径的写法",
+        "children": []
+      },
+      {
+        "level": 2,
+        "title": "gulp的插件",
+        "slug": "gulp的插件",
+        "children": []
+      },
+      {
+        "level": 2,
+        "title": "ES6转ES5",
+        "slug": "es6转es5",
+        "children": []
+      },
+      {
+        "level": 2,
+        "title": "服务器插件",
+        "slug": "服务器插件",
+        "children": []
+      }
+    ],
+    "path": "/doc/advanced/gulp/gulp.html",
+    "pathLocale": "/",
+    "extraFields": []
+  },
+  {
+    "title": "",
+    "headers": [],
+    "path": "/doc/advanced/typescript/",
+    "pathLocale": "/",
+    "extraFields": []
+  },
+  {
+    "title": "",
+    "headers": [],
+    "path": "/doc/advanced/uniapp/",
+    "pathLocale": "/",
+    "extraFields": []
+  },
+  {
+    "title": "",
+    "headers": [],
+    "path": "/doc/advanced/vite/",
+    "pathLocale": "/",
+    "extraFields": []
+  },
+  {
+    "title": "",
+    "headers": [],
+    "path": "/doc/advanced/webpack/",
+    "pathLocale": "/",
+    "extraFields": []
+  },
+  {
+    "title": "",
+    "headers": [],
+    "path": "/doc/advanced/weixin/",
+    "pathLocale": "/",
+    "extraFields": []
+  },
+  {
     "title": "高级效果",
     "headers": [
       {
@@ -2183,12 +2275,6 @@ export const searchIndex = [
     "headers": [
       {
         "level": 2,
-        "title": "gulp",
-        "slug": "gulp",
-        "children": []
-      },
-      {
-        "level": 2,
         "title": "介绍",
         "slug": "介绍",
         "children": []
@@ -2338,6 +2424,13 @@ export const searchIndex = [
     "title": "",
     "headers": [],
     "path": "/doc/frame/vue2/",
+    "pathLocale": "/",
+    "extraFields": []
+  },
+  {
+    "title": "VUE (2.X)",
+    "headers": [],
+    "path": "/doc/frame/vue2/vue.html",
     "pathLocale": "/",
     "extraFields": []
   },
@@ -2845,98 +2938,6 @@ export const searchIndex = [
       }
     ],
     "path": "/doc/necessary/node/node.html",
-    "pathLocale": "/",
-    "extraFields": []
-  },
-  {
-    "title": "",
-    "headers": [],
-    "path": "/doc/advanced/git/",
-    "pathLocale": "/",
-    "extraFields": []
-  },
-  {
-    "title": "gulp",
-    "headers": [
-      {
-        "level": 2,
-        "title": "介绍",
-        "slug": "介绍",
-        "children": []
-      },
-      {
-        "level": 2,
-        "title": "gulp的使用",
-        "slug": "gulp的使用",
-        "children": []
-      },
-      {
-        "level": 2,
-        "title": "gulp的常用内置方法",
-        "slug": "gulp的常用内置方法",
-        "children": []
-      },
-      {
-        "level": 2,
-        "title": "文件路径的写法",
-        "slug": "文件路径的写法",
-        "children": []
-      },
-      {
-        "level": 2,
-        "title": "gulp的插件",
-        "slug": "gulp的插件",
-        "children": []
-      },
-      {
-        "level": 2,
-        "title": "ES6转ES5",
-        "slug": "es6转es5",
-        "children": []
-      },
-      {
-        "level": 2,
-        "title": "服务器插件",
-        "slug": "服务器插件",
-        "children": []
-      }
-    ],
-    "path": "/doc/advanced/gulp/gulp.html",
-    "pathLocale": "/",
-    "extraFields": []
-  },
-  {
-    "title": "",
-    "headers": [],
-    "path": "/doc/advanced/typescript/",
-    "pathLocale": "/",
-    "extraFields": []
-  },
-  {
-    "title": "",
-    "headers": [],
-    "path": "/doc/advanced/uniapp/",
-    "pathLocale": "/",
-    "extraFields": []
-  },
-  {
-    "title": "",
-    "headers": [],
-    "path": "/doc/advanced/vite/",
-    "pathLocale": "/",
-    "extraFields": []
-  },
-  {
-    "title": "",
-    "headers": [],
-    "path": "/doc/advanced/webpack/",
-    "pathLocale": "/",
-    "extraFields": []
-  },
-  {
-    "title": "",
-    "headers": [],
-    "path": "/doc/advanced/weixin/",
     "pathLocale": "/",
     "extraFields": []
   },

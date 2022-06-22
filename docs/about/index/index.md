@@ -26,7 +26,7 @@ description: 页面的描述
 <div class="module">
   <h4>前端框架</h4>
   <div class="item_wrap">
-    <RouterLink class="RouterLink" to="/doc/frame/vue2/">vue2</RouterLink>
+    <RouterLink class="RouterLink" to="/doc/frame/vue2/vue/">vue2</RouterLink>
     <RouterLink class="RouterLink" to="/doc/frame/vue3/">vue3</RouterLink>
     <RouterLink class="RouterLink" to="/doc/frame/react/">react</RouterLink>
   </div>
@@ -37,11 +37,11 @@ description: 页面的描述
   <div class="item_wrap">
     <RouterLink class="RouterLink" to="/doc/advanced/gulp/gulp/">gulp</RouterLink>
     <RouterLink class="RouterLink" to="/doc/weixin/">sass</RouterLink>
-    <RouterLink class="RouterLink" to="/doc/uniapp/">uniapp</RouterLink>
+    <a class="RouterLink" href="https://uniapp.dcloud.io/collocation/pages.html" target="_black">uniapp</a>
     <RouterLink class="RouterLink" to="/doc/typescript/">typescript</RouterLink>
     <RouterLink class="RouterLink" to="/doc/webpack/">webpack</RouterLink>
     <RouterLink class="RouterLink" to="/doc/vite/">vite</RouterLink>
-    <RouterLink class="RouterLink" to="/doc/weixin/">微信小程序</RouterLink>
+    <a class="RouterLink" href="https://developers.weixin.qq.com/miniprogram/dev/framework/" target="_black">微信小程序</a>
     <RouterLink class="RouterLink" to="/doc/git/">版本管理</RouterLink>
     <RouterLink class="RouterLink" to="/doc/weixin/">模块化开发</RouterLink>
   </div>

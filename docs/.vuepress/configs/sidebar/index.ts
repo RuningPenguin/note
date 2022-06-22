@@ -56,7 +56,15 @@ export const SideBar: SidebarConfig = {
       ]
     }
   ],
-  '/doc/frame/': [],
+  '/doc/frame/': [
+    {
+      text: 'VUE(2.X)',
+      collapsible: true,
+      children: [
+        '/doc/frame/vue2/vue.md',
+      ]
+    }
+  ],
   '/doc/advanced/': [
     {
       text: 'Gulp',

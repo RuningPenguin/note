@@ -19,10 +19,6 @@ export const Head: HeadConfig[] = [
       href: `/note/logo/企鹅.png`,
     },
   ],
-  ['link', { rel: 'manifest', href: '/manifest.webmanifest' }],
-  ['meta', { name: 'application-name', content: 'VuePress' }],
-  ['meta', { name: 'apple-mobile-web-app-title', content: 'VuePress' }],
-  ['meta', { name: 'apple-mobile-web-app-status-bar-style', content: 'black' }],
   [
     'link',
     {
