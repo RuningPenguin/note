@@ -1,0 +1,1 @@
+const e=JSON.parse('{"key":"v-23af5c3c","path":"/doc/frame/react/","title":"","lang":"zh-CN","frontmatter":{},"excerpt":"","headers":[],"git":{"contributors":[{"name":"wangxu","email":"codeqie@163.com","commits":1}]},"filePathRelative":"doc/frame/react/index.md"}');export{e as data};

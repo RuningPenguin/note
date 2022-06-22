@@ -1,0 +1,1 @@
+import{_ as e,o as t,c as o,a as c}from"./app.65a2891e.js";const n={},s=c("p",null,"456 https://www.w3school.com.cn/index.html https://www.runoob.com/ https://www.ruanyifeng.com/",-1),_=[s];function r(a,l){return t(),o("div",null,_)}var d=e(n,[["render",r],["__file","index.html.vue"]]);export{d as default};

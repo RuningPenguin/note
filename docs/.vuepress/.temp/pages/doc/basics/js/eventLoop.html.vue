@@ -24,7 +24,7 @@
 </ol>
 </div>
 <p><strong>下图就是主线程和任务队列的示意图。</strong>
-<img src="/note/image/eventLoop.jpg"/>
+<img src="/image/eventLoop.jpg"/>
 <strong>只要主线程空了，就会去读取&quot;任务队列&quot;，这就是JavaScript的运行机制。这个过程会不断重复。</strong></p>
 <h2 id="三、事件和回调函数" tabindex="-1"><a class="header-anchor" href="#三、事件和回调函数" aria-hidden="true">#</a> 三、事件和回调函数</h2>
 <ul>
@@ -38,7 +38,7 @@
 <li>主线程从&quot;任务队列&quot;中读取事件，这个过程是循环不断的，所以整个的这种运行机制又称为Event Loop（事件循环）。</li>
 <li>为了更好地理解Event Loop，请看下图（转引自Philip Roberts的演讲<a href="https://vimeo.com/96425312" target="_blank">《Help, I'm stuck in an event-loop》</a>）。</li>
 </ul>
-<img src="/note/image/eventLoop2.png"/>
+<img src="/image/eventLoop2.png"/>
 <ul>
 <li>上图中，主线程运行的时候，产生堆（heap）和栈（stack），栈中的代码调用各种外部API，它们在&quot;任务队列&quot;中加入各种事件（click，load，done）。只要栈中的代码执行完毕，主线程就会去读取&quot;任务队列&quot;，依次执行那些事件所对应的回调函数。</li>
 </ul>
@@ -81,7 +81,7 @@ console<span class="token punctuation">.</span><span class="token function">log<
 <li>Node.js也是单线程的Event Loop，但是它的运行机制不同于浏览器环境。</li>
 </ul>
 <p>请看下面的示意图（作者<a href="https://twitter.com/BusyRich/status/494959181871316992" target="_blank">@BusyRich</a>）。</p>
-<img src="/note/image/eventLoop3.png" />
+<img src="/image/eventLoop3.png" />
 <div class="custom-container tip"><p class="custom-container-title">根据上图，Node.js的运行机制如下。</p>
 <p>（1）V8引擎解析JavaScript脚本。<br/>
 （2）解析后的代码，调用Node API。<br/>
