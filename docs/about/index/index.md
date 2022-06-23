@@ -26,9 +26,9 @@ description: 页面的描述
 <div class="module">
   <h4>前端框架</h4>
   <div class="item_wrap">
-    <RouterLink class="RouterLink" to="/doc/frame/vue2/vue/">vue2</RouterLink>
+    <!-- <RouterLink class="RouterLink" to="/doc/frame/vue2/vue/">vue2</RouterLink> -->
     <RouterLink class="RouterLink" to="/doc/frame/vue3/vue/">vue3</RouterLink>
-    <RouterLink class="RouterLink" to="/doc/frame/react/">react</RouterLink>
+    <!-- <RouterLink class="RouterLink" to="/doc/frame/react/">react</RouterLink> -->
   </div>
 </div>
 
