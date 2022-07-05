@@ -1,5 +1,5 @@
 <template><div><div class="qie_info">
-  <img class="img" src="/note/logo/企鹅.png"/>
+  <img class="img" src="/logo/企鹅.png"/>
   <div class="qie_right">
     <div class="name">奔跑的企鹅</div>
     <div class="tips">熬最深的夜，写最炫的代码</div>
