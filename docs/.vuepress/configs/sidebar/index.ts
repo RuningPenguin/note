@@ -57,13 +57,13 @@ export const SideBar: SidebarConfig = {
     }
   ],
   '/doc/frame/': [
-    // {
-    //   text: 'VUE(2.X)',
-    //   collapsible: true,
-    //   children: [
-    //     '/doc/frame/vue2/vue.md',
-    //   ]
-    // },
+    {
+      text: 'VUE(2.X)',
+      collapsible: true,
+      children: [
+        '/doc/frame/vue2/vue.md',
+      ]
+    },
     {
       text: 'VUE(3.X)',
       collapsible: true,
