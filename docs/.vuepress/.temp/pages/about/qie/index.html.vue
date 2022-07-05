@@ -21,9 +21,9 @@
 </ul>
 <h2 id="我的业余生活" tabindex="-1"><a class="header-anchor" href="#我的业余生活" aria-hidden="true">#</a> 我的业余生活</h2>
 <ul>
-<li>吉他🎸</li>
-<li>篮球🏀</li>
-<li>机车🏍️</li>
+<li>吉他 🎸</li>
+<li>篮球 🏀</li>
+<li>机车 🏍️</li>
 </ul>
 <!-- https://www.w3school.com.cn/index.html
 https://www.runoob.com/
@@ -32,7 +32,7 @@ https://www.ruanyifeng.com/ -->
 
 <style scoped lang='scss'>
 .qie_info {
-  padding: 40px;
+  padding: 40px 0;
   display: flex;
 
   .img {
@@ -54,6 +54,18 @@ https://www.ruanyifeng.com/ -->
       color: #999;
       font-weight: 600;
       font-size: 16px;
+    }
+  }
+}
+
+@media screen and (max-width: 456px) {
+  .qie_info {
+    flex-direction: column;
+    justify-content: center;
+    align-items: center;
+
+    .qie_right {
+      margin: 0 !important;
     }
   }
 }

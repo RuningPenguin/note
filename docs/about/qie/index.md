@@ -1,6 +1,6 @@
 <style scoped lang='scss'>
 .qie_info {
-  padding: 40px;
+  padding: 40px 0;
   display: flex;
 
   .img {
@@ -25,8 +25,19 @@
     }
   }
 }
-</style>
 
+@media screen and (max-width: 456px) {
+  .qie_info {
+    flex-direction: column;
+    justify-content: center;
+    align-items: center;
+
+    .qie_right {
+      margin: 0 !important;
+    }
+  }
+}
+</style>
 
 <div class="qie_info">
   <img class="img" src="/logo/企鹅.png"/>
@@ -37,6 +48,7 @@
 </div>
 
 ## 我掌握的技能
+
 - 熟悉 HTML，CSS，JavaScript，ES6、Ajax
 - 熟悉 Vue 及周边工具链、uni-app、原生小程序
 - 熟悉 Sass、Bootstrap、Swiper、axios、JQuery、Vant、Element UI、uView 等 第三方库
@@ -44,14 +56,16 @@
 - 了解 Node.js、Express、MongoDB、MySQL
 
 ## 我的贡献
+
 - <a href="https://www.npmjs.com/package/qie-tools-h5" target="_black">qie-tools-h5</a>
 - <a href="https://www.npmjs.com/package/qie-tools-mini" target="_black">qie-tools-mini</a>
 - <a href="https://github.com/RuningPenguin" target="_black">RuningPenguin GitHub</a>
 
 ## 我的业余生活
-- 吉他🎸
-- 篮球🏀
-- 机车🏍️
+
+- 吉他 🎸
+- 篮球 🏀
+- 机车 🏍️
 
 <!-- https://www.w3school.com.cn/index.html
 https://www.runoob.com/
